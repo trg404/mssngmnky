@@ -7101,28 +7101,27 @@ td.visible-print {
 
 .top{
   height: 1200px;
-  background-color: #334D5C;
-  border: 3px solid black;
+background: #676767 url("../img/florida.png") no-repeat;
+  border: 5px solid black;
 }
 
 .top h1{
-  position: absolute;
-  z-index: 1;
   color: white;
 }
+
+.top p{
+  color: white;
 }
 
+
 .mid{
-  border: 3px solid black;
-  height:1200px;
-  background-color: white;
+  border: 5px solid black;
+  height:1000px;
+  background-color: #736700;
 }
 
 .bot{
   height:1200px;
+  border: 5px solid black;
   background-color: #45B29D;
-}
-.price{
-  
-  text-align: right;
 }

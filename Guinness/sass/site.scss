@@ -1,0 +1,22 @@
+@import "bourbon/bourbon";
+@import "bitters/bitters";
+@import "neat/neat";
+
+
+$cream: #F2E9CE;
+$black: #0d0004;
+
+body{
+	@include outer-container;
+	background-color: $black;
+}
+.container{
+	background-color: $black;
+}
+.topper{
+
+	height:200px;
+	text-align: center;
+	background-color: $cream;
+}
+

@@ -1,0 +1,94 @@
+body{
+	
+	background-image: url("background.jpg");
+background-repeat: repeat-y;
+}
+
+#container{
+	background-position: 
+	right:70%;
+z-index: -1;
+
+
+}
+
+
+h1{
+	font-size: 600%;
+	text-align: center;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+}
+
+h2{
+letter-spacing: 20px;
+font-size:400%;
+	text-align: center;
+	font-family: 'Architects Daughter', "cursive";
+	margin-top:5px;
+}
+ p{
+ 	font-family: sans-serif;
+ 	font-size: 18px;
+ }
+
+ .circle {
+	margin: auto;
+ 	border:10px solid black;
+    width: 1200px;
+    height: 600px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #DFE8D5;
+}
+
+.ic1{
+
+	text-align: right;
+	line-height: 2em;
+ padding-top: 8%;
+ padding-left:7%;
+	z-index: 1;
+	width:30%;
+	float:left;
+	margin-right: 5px;
+}
+.ic2{
+	padding-top: 5%;
+	margin:auto;
+	float:;
+
+
+}
+.ic3{
+	line-height: 2em;
+	margin-right:5px;
+	width:33%;
+	padding-top: 10%;
+	padding-left: 0px;
+	padding-right: 7%;
+	float:right;
+}
+.inner{
+
+}
+.bottom{
+	bottom:20px;
+	min-height: 400px;
+}
+
+.bike{
+	float: left;
+	
+}
+
+.bottomtext{
+	line-height: 1.5em;
+	font-weight: bold;
+	font-size:larger;
+}
+.dropcap{
+	font-size: 2em;
+	font-weight: bold;
+}

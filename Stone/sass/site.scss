@@ -1,0 +1,33 @@
+@import "bourbon/bourbon";
+@import "bitters/bitters";
+@import "neat/neat";
+
+$green: #00904c;
+
+
+html{
+	background-color: $green;
+}
+
+#leftside { 
+		margin-top: 30em;
+	@include span-columns(8);
+
+}
+#rightside{
+	padding-top:0px;
+	@include span-columns(4);
+}
+
+.text{
+ @include shift(3)
+
+
+	
+}
+
+p{
+	font-family: $helvetica;
+	font-size: em(13);
+	color:white;
+}

@@ -1,0 +1,95 @@
+/* ================ */
+/* = The 1Kb Grid = */     /* 10 columns, 60 pixels each, with 20 pixel gutter */
+/* ================ */
+
+.grid_1 { width:60px; }
+.grid_2 { width:140px; }
+.grid_3 { width:220px; }
+.grid_4 { width:300px; }
+.grid_5 { width:380px; }
+.grid_6 { width:460px; }
+.grid_7 { width:540px; }
+.grid_8 { width:620px; }
+.grid_9 { width:700px; }
+.grid_10 { width:780px; }
+
+.column {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
+
+/* Mark's Stuff */
+
+html {
+	min-width: 800px;
+	width: 100%;
+	background-color: #666;
+}
+
+body{
+	padding: 10px, 0;
+	font-weight: bold;
+	margin: 0 auto;
+	width: 900px;
+	height:100%;
+	font-family:sans-serif;
+	background-color: white;
+}
+
+h1, h2, h3 { text-align: center; width: 100%; }
+
+div h1 { text-align: left }
+div h2 { text-align: center}
+#logo{
+	position: inherit;
+	z-index:1; }
+#topphoto{
+	position:absolute;
+	z-index:0;
+}
+#contact{
+	
+	position:absolute;
+	z-index:2; }
+#appetizers{ }
+#salads{ }
+#entrees{ }
+#double{
+	padding: 0% 33%;
+	text-align: center;
+}
+.description {	
+	font-weight: normal;
+	font-family:serif;
+padding-right:5px;
+}
+
+.price{
+	font-size:smaller;
+}
+.pizza #td{
+	padding-left: 10%;
+}
+#wings{ }
+#stromboli{
+	padding: 2px;
+	text-align:center;
+	}
+.picture{
+	opacity: 25;
+	z-index:0;
+	right: 275px;
+	position:absolute;
+	}

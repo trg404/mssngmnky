@@ -1,0 +1,41 @@
+@import "bourbon/bourbon";
+@import "bitters/bitters";
+@import "neat/neat";
+
+
+header { 
+
+	@include outer-container();
+
+	$header-height: 6em;
+	$visual-grid: true();
+	.copy {
+		@include row();
+		@include span-columns(7);
+		border-top:3px solid black;
+		border-bottom:3px solid black;
+		height: $header-height;
+		
+		.ftext{
+				font-weight:lighter;
+		}
+	}
+
+	.empty { 
+		@include span-columns(5);
+		height: $header-height;
+		@include omega;
+	}
+
+	.update{
+		@include row();
+		@include span-columns(2);
+		margin-top:1em;
+		background-color:black;
+		color: white;
+	}
+}
+
+content{
+	@include outer-container();
+}

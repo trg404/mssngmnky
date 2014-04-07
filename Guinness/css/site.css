@@ -269,7 +269,8 @@ body {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #0d0004; }
+  background-color: #0d0004;
+  height: 1200px; }
   body:before, body:after {
     content: " ";
     display: table; }
@@ -280,6 +281,8 @@ body {
   background-color: #0d0004; }
 
 .topper {
+  margin-top: 50px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   height: 200px;
-  text-align: center;
   background-color: #f2e9ce; }

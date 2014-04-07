@@ -9,14 +9,19 @@ $black: #0d0004;
 body{
 	@include outer-container;
 	background-color: $black;
+	height: 1200px;
 }
 .container{
 	background-color: $black;
 }
 .topper{
-
+	margin-top:50px;
+  @include border-top-radius(25px);
 	height:200px;
-	text-align: center;
 	background-color: $cream;
+}
+
+.content{
+	
 }
 

@@ -74,16 +74,26 @@ font-size:400%;
 
 }
 .bottom{
+	padding:0;
+	margin:0;
 	bottom:20px;
 	min-height: 400px;
 }
 
 .bike{
+	position: relative;
+	z-index: 1;
 	float: left;
 	
 }
 
 .bottomtext{
+	border:10px solid black;
+	border-radius: 25px;
+	margin:1em;
+	padding: 1em;
+	background-color: #DFE8D5;
+	opacity:0.6;
 	line-height: 1.5em;
 	font-weight: bold;
 	font-size:larger;

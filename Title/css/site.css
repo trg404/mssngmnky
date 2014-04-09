@@ -335,44 +335,44 @@ header {
   .content:after {
     clear: both; }
 
-.TopRight {
-  border-top: 7px solid blue;
+.StoneIPA {
+  border-top: 0.5em solid black;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
   margin-right: 0; }
-  .TopRight:last-child {
+  .StoneIPA:last-child {
     margin-right: 0; }
 
-.TopLeft {
-  border-top: 7px solid green;
+.CCdryHopped {
+  border-top: 0.5em solid black;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%; }
-  .TopLeft:last-child {
+  .CCdryHopped:last-child {
     margin-right: 0; }
 
-.BottomRight {
+.Guinness {
   margin-top: 4em;
-  border-top: 7px solid pink;
+  border-top: 0.5em solid black;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
   margin-right: 0; }
-  .BottomRight:last-child {
+  .Guinness:last-child {
     margin-right: 0; }
 
-.BottomLeft {
+.Wittekerke {
   margin-top: 4em;
-  border-top: 7px solid brown;
+  border-top: 0.5em solid black;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%; }
-  .BottomLeft:last-child {
+  .Wittekerke:last-child {
     margin-right: 0; }
 
 .image {
@@ -404,3 +404,6 @@ header {
 
 .logo {
   height: 2em; }
+
+a:link {
+  text-decoration: none; }

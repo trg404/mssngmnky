@@ -2,6 +2,8 @@
 @import "bitters/bitters";
 @import "neat/neat";
 
+
+$april: black;
 .container{
 	@include outer-container();
 }
@@ -50,30 +52,30 @@ header {
 
 }
 
-.TopRight{
-	border-top:7px solid blue;
+.StoneIPA{
+	border-top:.5em solid $april;
 	@include span-columns(6);
 	@include omega();
 
 }
 
 
-.TopLeft{
-	border-top:7px solid green;
+.CCdryHopped{
+	border-top:.5em solid $april;
 	@include span-columns(6);
 
 	
 }
 
-.BottomRight{
+.Guinness{
 	margin-top:4em;
-	border-top:7px solid pink;
+	border-top:.5em solid $april;
 	@include span-columns(6);
 	@include omega();
 }
-.BottomLeft{
+.Wittekerke{
 	margin-top:4em;
-	border-top:7px solid brown;
+	border-top:.5em solid $april;
 	@include span-columns(6);
 	
 }
@@ -93,4 +95,8 @@ header {
 .logo{
 	height:2em;
 	
+}
+
+a:link{
+	text-decoration:none;
 }

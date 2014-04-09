@@ -269,7 +269,7 @@ body {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #0d0004;
+  background-color: #180c04;
   height: 1200px; }
   body:before, body:after {
     content: " ";
@@ -278,7 +278,13 @@ body {
     clear: both; }
 
 .container {
-  background-color: #0d0004; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: #180c04; }
+  .container:last-child {
+    margin-right: 0; }
 
 .topper {
   margin-top: 50px;
@@ -286,3 +292,20 @@ body {
   border-top-right-radius: 25px;
   height: 200px;
   background-color: #f2e9ce; }
+
+.content {
+  text-align: center;
+  font-size: 450%;
+  color: goldenrod; }
+
+.content2 {
+  text-align: center;
+  font-size: 450%;
+  color: goldenrod;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  .content2:last-child {
+    margin-right: 0; }

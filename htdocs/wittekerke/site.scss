@@ -1,14 +1,14 @@
-body{
-	
-	background-image: url("background.jpg");
-background-repeat: repeat-y;
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'bitters/bitters';
+
+@mixin border{
+	border: .25em solid black;
 }
 
-main{
-	background-position: 
-	right:70%;
-z-index: -1;
-
+main {
+background-image: url("img/background.jpg");
+background-repeat: repeat-y;
 
 }
 
@@ -27,14 +27,16 @@ font-size:400%;
 	font-family: 'Architects Daughter', "cursive";
 	margin-top:5px;
 }
+
  p{
  	font-family: sans-serif;
  	font-size: 18px;
+
  }
 
  .circle {
 	margin: auto;
- 	border:10px solid black;
+ 	@include border;
     width: 90%;
     height: 600px;
     -moz-border-radius: 50%; 
@@ -44,23 +46,26 @@ font-size:400%;
 }
 
 .ic1{
-
 	text-align: right;
 	line-height: 2em;
  padding-top: 8%;
  padding-left:7%;
 	z-index: 1;
-	width:30%;
-	float:left;
+	width:33%;
+	float: left;
 	margin-right: 5px;
+	p{
+		clear:both;
+	
+	}
 }
 .ic2{
 	padding-top: 5%;
-	margin:auto;
-	float:;
-
-
+	float: none;
+	width: 20%;
 }
+
+
 .ic3{
 	line-height: 2em;
 	margin-right:5px;
@@ -70,9 +75,7 @@ font-size:400%;
 	padding-right: 7%;
 	float:right;
 }
-.inner{
 
-}
 .bottom{
 	padding:0;
 	margin:0;
@@ -87,17 +90,18 @@ font-size:400%;
 	
 }
 
-.bottomtext{
-	border:10px solid black;
+footer {
+	@include border;
 	border-radius: 25px;
 	margin:1em;
 	padding: 1em;
 	background-color: #DFE8D5;
-	opacity:0.6;
+	opacity:0.7;
 	line-height: 1.5em;
 	font-weight: bold;
-	font-size:larger;
+	
 }
+
 .dropcap{
 	font-size: 2em;
 	font-weight: bold;

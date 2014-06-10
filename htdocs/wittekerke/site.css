@@ -264,84 +264,101 @@ dl {
     .success a:hover, #flash_success a:hover {
       color: black; }
 
-main {
-  background-image: url("img/background.jpg");
-  background-repeat: repeat-y; }
+body {
+  background-image: url("img/background.jpg"); }
+
+td {
+  border: .25em solid black;
+  width: 2000px; }
+
+img {
+  max-width: 100%; }
 
 h1 {
-  font-size: 600%;
+  width: 3000px;
+  font-size: 7.85377em;
   text-align: center;
   font-family: sans-serif;
   margin-bottom: 0px; }
 
-h2 {
-  letter-spacing: 20px;
-  font-size: 400%;
-  text-align: center;
-  font-family: 'Architects Daughter', "cursive";
-  margin-top: 5px; }
-
 p {
   font-family: sans-serif;
-  font-size: 18px; }
+  font-size: 19.416px; }
 
 .circle {
-  margin: auto;
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
   border: .25em solid black;
-  width: 90%;
-  height: 600px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #DFE8D5; }
-
-.ic1 {
-  text-align: right;
-  line-height: 2em;
-  padding-top: 8%;
-  padding-left: 7%;
-  z-index: 1;
-  width: 33%;
-  float: left;
-  margin-right: 5px; }
-  .ic1 p {
+  background: #DFE8D5;
+  height: 600px; }
+  .circle:before, .circle:after {
+    content: " ";
+    display: table; }
+  .circle:after {
     clear: both; }
 
+.ic1 {
+  *zoom: 1;
+  padding-top: 4em;
+  text-align: right;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  display: inline;
+  line-height: 1.5em;
+  width: 30%; }
+  .ic1:before, .ic1:after {
+    content: " ";
+    display: table; }
+  .ic1:after {
+    clear: both; }
+  .ic1:last-child {
+    margin-right: 0; }
+
 .ic2 {
-  padding-top: 5%;
-  float: none;
-  width: 20%; }
+  height: 30em;
+  width: 30%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .ic2:last-child {
+    margin-right: 0; }
 
 .ic3 {
-  line-height: 2em;
-  margin-right: 5px;
-  width: 33%;
-  padding-top: 10%;
-  padding-left: 0px;
-  padding-right: 7%;
-  float: right; }
-
-.bottom {
-  padding: 0;
-  margin: 0;
-  bottom: 20px;
-  min-height: 400px; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  padding-top: 5em;
+  line-height: 1.5em;
+  width: 30%; }
+  .ic3:last-child {
+    margin-right: 0; }
 
 .bike {
   position: relative;
   z-index: 1;
   float: left; }
 
-footer {
+.lower {
   border: .25em solid black;
   border-radius: 25px;
   margin: 1em;
-  padding: 1em;
+  padding: 5em;
   background-color: #DFE8D5;
   opacity: 0.7;
-  line-height: 1.5em;
-  font-weight: bold; }
+  line-height: 2em;
+  font-weight: bold;
+  width: 1500px; }
 
 .dropcap {
   font-size: 2em;
   font-weight: bold; }
+
+.one {
+  width: 2000px; }

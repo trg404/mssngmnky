@@ -6,82 +6,74 @@
 	border: .25em solid black;
 }
 
-main {
+body {
 background-image: url("img/background.jpg");
-background-repeat: repeat-y;
-
 }
 
 
+td{
+	@include border;
+	width:2000px;
+	
+}
+
+
+img{
+	max-width: 100%;
+}
+
 h1{
-	font-size: 600%;
+	width: 3000px;
+	font-size: golden-ratio(3em, 2);
 	text-align: center;
 	font-family: sans-serif;
 	margin-bottom: 0px;
 }
 
-h2{
-letter-spacing: 20px;
-font-size:400%;
-	text-align: center;
-	font-family: 'Architects Daughter', "cursive";
-	margin-top:5px;
-}
-
  p{
  	font-family: sans-serif;
- 	font-size: 18px;
+ 	font-size: golden-ratio(12px, 1);
 
  }
 
  .circle {
-	margin: auto;
- 	@include border;
-    width: 90%;
-    height: 600px;
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
+@include outer-container;
+	border: .25em solid black;
     background: #DFE8D5;
+    height: 600px;
+    
+    
 }
 
 .ic1{
-	text-align: right;
-	line-height: 2em;
- padding-top: 8%;
- padding-left:7%;
-	z-index: 1;
-	width:33%;
-	float: left;
-	margin-right: 5px;
-	p{
-		clear:both;
+	@include clearfix;
+
+padding-top:4em;
+text-align:right;
+	@include span-columns(4);
+	display:inline;
+	line-height: 1.5em;
+	width: 30%;
 	
-	}
+	
 }
 .ic2{
-	padding-top: 5%;
-	float: none;
-	width: 20%;
-}
 
+	height:30em;
+	width:30%;
+	@include span-columns(4);	
+}
 
 .ic3{
-	line-height: 2em;
-	margin-right:5px;
-	width:33%;
-	padding-top: 10%;
-	padding-left: 0px;
-	padding-right: 7%;
-	float:right;
+	@include span-columns(4);
+	@include omega();
+	padding-top:5em;
+	line-height: 1.5em;
+	width:30%;
+	
 }
 
-.bottom{
-	padding:0;
-	margin:0;
-	bottom:20px;
-	min-height: 400px;
-}
+
 
 .bike{
 	position: relative;
@@ -90,19 +82,25 @@ font-size:400%;
 	
 }
 
-footer {
+.lower {
 	@include border;
 	border-radius: 25px;
 	margin:1em;
-	padding: 1em;
+	padding: 5em;
 	background-color: #DFE8D5;
 	opacity:0.7;
-	line-height: 1.5em;
+	line-height: 2em;
 	font-weight: bold;
+	width: 1500px;
 	
 }
 
 .dropcap{
 	font-size: 2em;
 	font-weight: bold;
+}
+
+.one{
+
+	width:2000px;
 }

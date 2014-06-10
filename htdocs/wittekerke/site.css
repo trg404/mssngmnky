@@ -268,11 +268,11 @@ body {
   background-image: url("img/background.jpg"); }
 
 td {
-  border: .25em solid black;
-  width: 2000px; }
+  width: 1200px; }
 
 img {
-  max-width: 100%; }
+  height: auto;
+  width: 100%; }
 
 h1 {
   width: 3000px;
@@ -286,13 +286,17 @@ p {
   font-size: 19.416px; }
 
 .circle {
+  verticle-algin: left;
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
   border: .25em solid black;
   background: #DFE8D5;
-  height: 600px; }
+  height: 600px;
+  border-radius: 50%;
+  width: 2000px;
+  margin: 0px; }
   .circle:before, .circle:after {
     content: " ";
     display: table; }
@@ -300,31 +304,26 @@ p {
     clear: both; }
 
 .ic1 {
-  *zoom: 1;
-  padding-top: 4em;
+  padding-top: 9em;
+  margin-left: 5em;
   text-align: right;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
   display: inline;
-  line-height: 1.5em;
-  width: 30%; }
-  .ic1:before, .ic1:after {
-    content: " ";
-    display: table; }
-  .ic1:after {
-    clear: both; }
+  line-height: 1.4em; }
   .ic1:last-child {
     margin-right: 0; }
 
 .ic2 {
-  height: 30em;
-  width: 30%;
+  height: 100%;
+  padding-top: 4em;
+  margin: 0px;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 23.23176%; }
   .ic2:last-child {
     margin-right: 0; }
 
@@ -333,12 +332,14 @@ p {
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  margin-right: 0;
-  padding-top: 5em;
-  line-height: 1.5em;
-  width: 30%; }
+  padding-top: 9em;
+  line-height: 1.4em;
+  margin-left: -40px; }
   .ic3:last-child {
     margin-right: 0; }
+
+figure {
+  margin-left: -20px; }
 
 .bike {
   position: relative;
@@ -348,11 +349,9 @@ p {
 .lower {
   border: .25em solid black;
   border-radius: 25px;
-  margin: 1em;
-  padding: 5em;
   background-color: #DFE8D5;
   opacity: 0.7;
-  line-height: 2em;
+  line-height: 1.9em;
   font-weight: bold;
   width: 1500px; }
 
@@ -360,5 +359,5 @@ p {
   font-size: 2em;
   font-weight: bold; }
 
-.one {
-  width: 2000px; }
+p {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }

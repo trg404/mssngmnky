@@ -26,7 +26,7 @@ p:first-child:first-letter{
 	margin: 0.25em;
 }
 
-.one{
+.box{
 	position:relative;
 	@include border-radius(25px);
 	@include background-color;
@@ -43,4 +43,9 @@ p:first-child:first-letter{
 	width:45%;
 	padding: 2em;
 	margin:1em;
+}
+
+.class{
+
+	@include border-radius(25px);
 }

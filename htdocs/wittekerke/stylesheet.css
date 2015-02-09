@@ -4,7 +4,7 @@ body{
 background-repeat: repeat-y;
 }
 
-#container{
+main{
 	background-position: 
 	right:70%;
 z-index: -1;
@@ -35,7 +35,7 @@ font-size:400%;
  .circle {
 	margin: auto;
  	border:10px solid black;
-    width: 1200px;
+    width: 90%;
     height: 600px;
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 

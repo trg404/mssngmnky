@@ -1,0 +1,107 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'bitters/bitters';
+
+@mixin border{
+	border: .25em solid black;
+}
+
+body {
+background-image: url("img/background.jpg");
+}
+
+
+td{
+	
+	width:1200px;
+}
+
+
+img{
+height: auto;
+	width: 100%;
+}
+
+h1{
+	width: 3000px;
+	font-size: golden-ratio(3em, 2);
+	text-align: center;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+}
+
+ p{
+ 	font-family: sans-serif;
+ 	font-size: golden-ratio(12px, 1);
+
+ }
+
+ .circle {
+ 	verticle-algin:left;
+@include outer-container;
+	@include border;
+    background: #DFE8D5;
+    height: 600px;
+    border-radius:50%;
+    width:2000px;
+   
+    
+}
+
+.ic1{
+padding-top:9em;
+margin-left:5em;
+text-align:right;
+	@include span-columns(4);
+	display:inline;
+	line-height: 1.4em;
+	
+	
+	
+}
+.ic2{
+  @include reset-all;
+   height: 100%;
+   padding-top:4em;
+   margin:0px;
+	@include span-columns(3);	
+}
+
+.ic3{
+	@include span-columns(4);
+	padding-top:9em;
+	line-height: 1.4em;
+	margin-left:-40px;
+	
+}
+
+figure{
+margin-left:-20px;
+}
+
+.bike{
+	position: relative;
+	z-index: 1;
+	float: left;
+	
+}
+
+.lower {
+	@include border;
+	border-radius: 25px;
+	background-color: #DFE8D5;
+	opacity:0.7;
+	line-height: 1.9em;
+	font-weight: bold;
+	
+	
+}
+
+.dropcap{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+p{
+  font-family: $georgia;
+}

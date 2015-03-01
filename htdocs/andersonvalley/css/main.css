@@ -97,9 +97,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  background-image: url(../img/wood.jpg); 
+}
 
-
-
+.box{
+    border: 1px sold black;
+}
 
 
 

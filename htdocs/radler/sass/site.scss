@@ -16,6 +16,9 @@
 body{
 	background-image:url(../img/plaid.jpg);
 }
+h1{
+	color:blue;
+}
 
 p{
 
@@ -49,3 +52,4 @@ p:first-child:first-letter{
 
 	@include border-radius(25px);
 }
+

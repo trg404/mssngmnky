@@ -32,6 +32,9 @@ input[type="submit"] {
   input[type="submit"]:disabled {
     opacity: 0.5;
     cursor: not-allowed; }
+*{
+box-sizing:border-box;
+}
 
 body {
   color: #333333;

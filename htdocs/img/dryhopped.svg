@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g>
+        <g id="Layer1">
+            <g>
+                <path d="M51.1282,60.9009L76.9024,60.0265C76.9024,60.0265 76.8025,75.2331 51.2008,76.1017C25.5992,76.9703 24.623,61.8002 24.623,61.8002L51.1282,60.9009L50.7444,50.275L50.7447,50.275L49.8772,26.2425L49.8764,26.2417L50.7444,50.275L26.6543,51.0924L49.8771,26.2385L49.8772,26.2425L75.9085,49.4213L50.7447,50.275L51.1282,60.9009Z" style="fill:none;stroke-width:1.67px;stroke:black;"/>
+            </g>
+            <g>
+                <path d="M99.6731,67.2124L99.5591,100.378L-0.370888,100.451L-0.175446,67.3769C-0.175446,67.3769 -1.59664,63.8549 17.9214,63.8549C37.4394,63.8549 44.657,75.7418 52.7223,75.7418C60.7877,75.7418 71.0456,63.8783 84.0831,63.8783C97.1207,63.8783 99.6731,67.2124 99.6731,67.2124Z" style="fill:rgb(254,254,254);stroke-width:0.89px;stroke:black;"/>
+            </g>
+            <g>
+                <path d="M27.0714,57.1537L31.7384,56.9773L31.7384,60.423L26.9634,60.6269L27.0714,57.1537Z" style="fill:none;stroke-width:1.11px;stroke:black;"/>
+            </g>
+            <g>
+                <path d="M33.1691,56.9788L37.8362,56.8024L37.8362,60.2481L33.0612,60.452L33.1691,56.9788Z" style="fill:none;stroke-width:1.11px;stroke:black;"/>
+            </g>
+            <g>
+                <path d="M66.7189,55.8425L71.7603,55.6519L71.7603,59.374L66.6023,59.5943L66.7189,55.8425Z" style="fill:none;stroke-width:1.11px;stroke:black;"/>
+            </g>
+            <g>
+                <path d="M60.6962,56.3698L65.3632,56.1934L65.3632,59.6391L60.5882,59.843L60.6962,56.3698Z" style="fill:none;stroke-width:1.11px;stroke:black;"/>
+            </g>
+            <g>
+                <path d="M63.8056,52.3983L68.4727,52.2219L68.4727,55.6676L63.6977,55.8715L63.8056,52.3983Z" style="fill:none;stroke-width:1.11px;stroke:black;"/>
+            </g>
+        </g>
+    </g>
+</svg>

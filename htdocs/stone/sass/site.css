@@ -1,3 +1,4 @@
+
 button,
 input[type="submit"] {
   border: 1px solid #2459a6;
@@ -292,3 +293,14 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;
   color: white; }
+
+
+  @media screen and (max-width: 0px){
+ 
+ body{
+  background-color: #ffffff;
+  background-image: url('../img/bottle.png')
+ }
+
+
+  }

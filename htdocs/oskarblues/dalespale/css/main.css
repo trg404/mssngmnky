@@ -10,8 +10,8 @@ header{
 
 .headerpic{
     height:500px;
-  
-    border: 1px solid black;
+    border: 5px solid black;
+    background-image: url('../img/mountains.png')
 }
 
 

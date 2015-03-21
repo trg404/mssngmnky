@@ -6,22 +6,17 @@
 
 body {
   color:white;
-  background: linear-gradient(#00904c ,transparent 150% ),
+  background: linear-gradient(rgba(0, 144, 76, .7) ,transparent 300% ),
    rgb(0, 144, 76) url('../img/bottle.png') no-repeat center / cover;
 }
 
-
-
-img {
-  margin: 0;
-  max-width: 100%; 
-  display:none;
-}
-
 p {
- height: 100%;
   margin: 30% auto;
   width: 90%;
   line-height: 2em;
   font-weight: 600;
  }
+
+img{
+display: none;
+}

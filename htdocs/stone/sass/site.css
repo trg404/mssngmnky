@@ -2,67 +2,32 @@
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
 
 body {
-  color: #333333;
-  background-color: black;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.5em; }
-
-img {
-  margin: 0;
-  max-width: 100%; }
-
-#leftside {
-  margin-top: 20em;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%; }
+  color:white;
+  background: linear-gradient(#00904c ,transparent 150% ),
+   rgb(0, 144, 76) url('../img/bottle.png') no-repeat center / cover;
+  
 
   
 
-
-#rightside {
-
-  padding-top: 0px;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-
-  #rightside:last-child {
-    margin-right: 0; }
-
-.text {
-  margin-left: 25.58941%; }
-
-p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.8125em;
-  color: white; }
-
-
-/* Media queries for mobile */
-
-@media screen and (max-width: 500px){
-  body{
-background-image: url("../img/bottle.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: top center;
-;
-  }
-
-  #rightside{
-    display:none;
-  }
-  p{
-    background-color: rgb(0 144 0);
-    display:block;
-  }
+ 
 }
 
+
+
+img {
+  margin: 0;
+  max-width: 100%; 
+  display:none;
+}
+
+p {
+ height: 100%;
+  margin: 30% auto;
+  width: 90%;
+  line-height: 2em;
+  font-weight: 600;
+ }

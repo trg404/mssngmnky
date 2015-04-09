@@ -1,5 +1,5 @@
-* {
-  -webkit-box-sizing: border-box;
+*{
+-webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -9,11 +9,14 @@ body {
   background-image: url("img/background.jpg");
   color: #333333;
   }
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> origin/master
 
 img {
   margin: 0;
@@ -30,7 +33,11 @@ img {
   width: 100%; }
 
 h1 {
+<<<<<<< HEAD
   border:1px solid black;
+=======
+padding-top:-5px;
+>>>>>>> origin/master
   width: 3000px;
   font-size: 7.85377em;
   text-align: center;
@@ -93,18 +100,29 @@ p {
   padding-top: 9em;
   line-height: 1.4em;
   margin-left: -40px; }
-  .ic3:last-child {
+ 
+
+ .ic3:last-child {
     margin-right: 0; }
 
 figure {
   margin-left: -20px; }
 
 .bike {
+height:15em;
   position: relative;
   z-index: 1;
+<<<<<<< HEAD
   float: right; }
 
 .lower {
+=======
+  float:left; }
+
+.lower {
+height: 280px;
+width: 2000px;
+>>>>>>> origin/master
   padding-left: 20px;
   border: .25em solid black;
   border-radius: 25px;
@@ -112,7 +130,12 @@ figure {
   opacity: 0.7;
   line-height: 1.9em;
   font-weight: bold; 
+<<<<<<< HEAD
 width:; 1000px}
+=======
+  width:; 1000px
+  }
+>>>>>>> origin/master
 
 .dropcap {
   font-size: 2em;
@@ -123,3 +146,4 @@ width:; 1000px}
 
 p {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
+

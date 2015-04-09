@@ -7,7 +7,7 @@
 
 body{
 	background: #5F9EA0 url('../img/wood.jpg');
-	background-blend-mode:hard-light;
+	background-blend-mode:darken;
 	}
 	
 
@@ -15,12 +15,11 @@ body{
 /* images */
 
 .kex{
-background: #0000ff url('../img/kex.jpg');
-background-size:400px;
-background-blend-mode:screen;
-	width: 400px;
-	height: 250px;
-
+	background: #0000ff url('../img/kex.jpg');
+	background-size:cover;
+	background-blend-mode:screen;
+	width: 30%;
+    height: 250px;
 	display:inline-block;
 	float:right;
 	margin-right: 30%;
@@ -31,12 +30,12 @@ background-blend-mode:screen;
 .mower{
 	background: #ff0000 url('../img/mower.jpg');
 	background-repeat: no-repeat;
-	background-size: 500px;
+	background-size: cover;
 	background-blend-mode:darken;
 	width:500px;
 	height:700px;
 	margin-left: auto;
-	margin-right: 60em;
+	margin-right: 40em;
 	margin-top:10%;
 
 	
@@ -44,14 +43,11 @@ background-blend-mode:screen;
 
 
 .outside{
-background: #00ff00 url('../img/outside.jpg');
-background-blend-mode:darken;
-background-repeat:no-repeat;
-background-size: 500px;
-   width:400px;
-   height:300px;
-
-   float:right;
-   margin-right: 30%;
-   margin-top: 7%;
+	background: #00ff00 url('../img/outside.jpg');
+	background-blend-mode:darken;
+	background-repeat:no-repeat;
+	background-size: cover;
+	width:400px;
+	height:300px;
+	margin-top: 7%;
 }

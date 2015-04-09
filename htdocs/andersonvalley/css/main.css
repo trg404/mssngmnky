@@ -1,23 +1,22 @@
 body {
   background: #5F9EA0 url("../img/wood.jpg");
-  background-blend-mode: multiply; }
+  background-blend-mode: darken; }
 
 /* images */
 .kex {
   background: #0000ff url("../img/kex.jpg");
-  background-size: 400px;
+  background-size: cover;
   background-blend-mode: screen;
-  width: 400px;
+  width: 30%;
   height: 250px;
   display: inline-block;
   float: right;
-  margin-right: 10em; 
-margin-top: 10em;}
+  margin-right: 30%; }
 
 .mower {
   background: #ff0000 url("../img/mower.jpg");
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-size: cover;
   background-blend-mode: darken;
   width: 500px;
   height: 700px;
@@ -29,12 +28,9 @@ margin-top: 10em;}
   background: #00ff00 url("../img/outside.jpg");
   background-blend-mode: darken;
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-size: cover;
   width: 400px;
   height: 300px;
-  float: left;
-  margin-left: 45em;
-  margin-top: 2em;
-display:inline;}
+  margin-top: 7%; }
 
 /*# sourceMappingURL=main.css.map */

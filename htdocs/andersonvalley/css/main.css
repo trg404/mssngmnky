@@ -1,59 +1,66 @@
 body {
-  background: cadetblue url("../img/wood.jpg");
+  background: #5F9EA0 url("../img/wood.jpg");
   background-blend-mode: hard-light; }
 
 /* right and left columns at the top*/
 .right {
-  
   position: absolute;
-  right: 52%;
-  width: 45%; }
+  right: 55%;
+  top: 10%;
+  width: 40%; }
 
 .left {
-  
   position: absolute;
-  left: 52%;
-  width: 45%; 
-  margin-top: 5%;
-}
+  left: 55%;
+  width: 40%; }
 
 /* images */
 .outside {
-	border-radius:10px;
-border: 5px solid black;
-  background: lime url("../img/outside.jpg");
+  background: #19400E url("../img/outside.jpg");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 20em;
-  margin-bottom: 2em; }
+  height: 21em;
+  margin-bottom: 2em;
+  font-family: 'Cabin Condensed', sans-serif; }
+  .outside p {
+    line-height: 1.8em;
+    font-size: 1.15em; }
 
 .kex {
-	border-radius:10px;
-	border: 5px solid black;
-  background: blue url("../img/kex.jpg");
+  background: #262573 url("../img/kex.jpg");
   background-size: cover;
-  background-blend-mode: screen;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
   width: 100%;
   height: 15em;
-  margin-top: 15%; }
+  margin-top: 25%;
+  font-family: 'Cabin Condensed', sans-serif; }
+  .kex p {
+    line-height: 3em;
+    font-size: 1.15em; }
 
 .mower {
-	border-radius:10px;
-	border: 5px solid black;
-  background: red url("../img/mower.jpg");
+  background: #7F5036 url("../img/mower.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
   width: 100%;
-  height: 35em;
-  margin-bottom: 10%; }
+  height: 45em;
+  margin-bottom: 5%;
+  font-family: 'Gloria Hallelujah', cursive; }
+  .mower p {
+    line-height: 2.25em; }
 
 /* type */
 h1 {
-  font-size: 48px; }
+  font-size: 48px;
+  font-family: 'Lobster', cursive;
+  margin-left: 5%; }
 
 p {
   color: white;
-  line-height: 2em; }
+  margin: 2em; }
+
+/*# sourceMappingURL=main.css.map */

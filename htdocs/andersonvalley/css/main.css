@@ -25,8 +25,11 @@ body {
   margin-bottom: 2em;
   font-family: 'Cabin Condensed', sans-serif; }
   .outside p {
+    padding-top: 10px;
     line-height: 1.8em;
-    font-size: 1.15em; }
+    font-size: 1.1em; }
+  .outside p:first-child:first-letter {
+    font-size: 2em; }
 
 .kex {
   background: #262573 url("../img/kex.jpg");
@@ -49,7 +52,8 @@ body {
   width: 100%;
   height: 45em;
   margin-bottom: 5%;
-  font-family: 'Gloria Hallelujah', cursive; }
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-top: 10px; }
   .mower p {
     line-height: 2.25em; }
 

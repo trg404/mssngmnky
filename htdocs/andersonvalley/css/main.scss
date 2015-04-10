@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+body{
+	background: #5F9EA0 url('../img/wood.jpg');
+	background-blend-mode:hard-light;
+	}
+	
+/* right and left columns at the top*/
+.right {
+
+	 position: absolute;
+     right: 55%;  
+     top: 10%;
+  	 width: 40%;
+
+ }
+ .left {
+ 
+	 position: absolute;
+     left: 55%;  
+  	 width: 40%;
+
+ }
+
+/* images */
+
+
+
+.outside{
+	background: #19400E url('../img/outside.jpg');
+	background-blend-mode:multiply;
+	background-repeat:no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 21em;
+	margin-bottom:2em;
+	font-family: 'Cabin Condensed', sans-serif;
+	p{
+	line-height: 1.8em;
+	font-size:1.15em;
+	}
+}
+
+
+
+.kex{
+
+	background: #262573 url('../img/kex.jpg');
+	background-size:cover;
+	background-blend-mode:darken;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 15em;
+	margin-top: 25%;
+	font-family: 'Cabin Condensed', sans-serif;
+	p{
+	line-height: 3em;
+	font-size: 1.15em;
+	}
+}
+
+.mower{
+	background: #7F5036 url('../img/mower.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode:multiply;
+	width:100%;
+	height:45em;
+	margin-bottom:5%;
+	font-family: 'Gloria Hallelujah', cursive;
+	p{
+	line-height: 2.25em;
+	}
+
+
+}
+
+
+/* type */
+h1{
+	font-size:48px;
+font-family: 'Lobster', cursive;
+margin-left: 5%;
+}
+
+
+
+p{
+color:white;
+margin:2em;
+}

@@ -12,14 +12,15 @@ body{
 	
 /* right and left columns at the top*/
 .right {
-	 	border: 5px solid black;
 
 	 position: absolute;
      right: 55%;  
+     top: 10%;
   	 width: 40%;
+
  }
  .left {
- 	border: 5px solid black;
+ 
 	 position: absolute;
      left: 55%;  
   	 width: 40%;
@@ -32,33 +33,61 @@ body{
 
 .outside{
 	background: #00ff00 url('../img/outside.jpg');
+	background: #19400E url('../img/outside.jpg');
 	background-blend-mode:multiply;
 	background-repeat:no-repeat;
 	background-size: cover;
 	width:100%;
 	height: 20em;
+	height: 21em;
 	margin-bottom:2em;
-
-
+	font-family: 'Cabin Condensed', sans-serif;
+	p{
+	padding-top: 10px;
+	line-height: 1.8em;
+	font-size:1.1em;	
+	}
+	p:first-child:first-letter{
+	font-size:2em;
+	}
 }
+
+
 
 .kex{
 	background: #0000ff url('../img/kex.jpg');
+	background: #262573 url('../img/kex.jpg');
 	background-size:cover;
 	background-blend-mode:screen;
+	background-blend-mode:darken;
+	background-repeat: no-repeat;
 	width: 100%;
 	height: 15em;
 	margin-top: 25%;
+	font-family: 'Cabin Condensed', sans-serif;
+	p{
+	line-height: 3em;
+	font-size: 1.15em;
+	}
 }
 
 .mower{
 	background: #ff0000 url('../img/mower.jpg');
+	background: #7F5036 url('../img/mower.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-blend-mode:multiply;
 	width:100%;
 	height:60em;
 	margin-bottom:10%;
+	height:45em;
+	margin-bottom:5%;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding-top:10px;
+	p{
+	line-height: 2.25em;
+	}
+
 
 }
 
@@ -66,9 +95,15 @@ body{
 /* type */
 h1{
 	font-size:48px;
+font-family: 'Lobster', cursive;
+margin-left: 5%;
 }
+
+
 
 p{
 	color:white;
 	line-height:2em;
+color:white;
+margin:2em;
 }

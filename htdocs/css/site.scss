@@ -1,0 +1,110 @@
+
+
+
+*{
+box-sizing:border-box;
+}
+
+
+html{
+  font-family: 'Lato' sans-serif;
+}
+
+.mnkyTitle{
+  font-family: 'indie flower' serif;
+  font-size:2em;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h1{
+  text-align: center;
+font-size: 3rem;
+}
+
+body{
+
+}
+
+.top{}
+
+
+/* Beer catagories */
+
+.beer{
+	margin: 100px auto;
+	text-align: center;
+	max-width: 90%;
+
+}
+
+img{
+  border: 2px solid black;
+  max-width: 100%;
+}
+
+p{
+color:black;
+}
+
+.icon{
+ min-width: 50px;
+ min-height: 50px;  
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 400px) {
+  html{
+  font-family: 'Lato' sans-serif;
+}
+
+.mnkyTitle{
+  font-family: 'indie flower' serif;
+  font-size:2em;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h1{
+  text-align: center;
+font-size: 3rem;
+}
+
+
+
+
+/* Beer catagories */
+
+.beer{
+  margin: 100px auto;
+  text-align: center;
+  max-width: 90%;
+
+}
+
+img{
+  border: 2px solid black;
+  max-width: 100%;
+}
+
+p{
+color:black;
+}
+
+.icon{
+ min-width: 50px;
+ min-height: 50px;  
+}
+    
+    }
+
+@import "mq500";

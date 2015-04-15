@@ -1,74 +1,96 @@
-*{
-box-sizing:border-box;
-}
+* {
+  box-sizing: border-box; }
 
+html {
+  font-family: 'Lato' sans-serif; }
 
-html{
-  font-family: 'Lato' sans-serif;
-}
-
-.mnkyTitle{
+.mnkyTitle {
   font-family: 'indie flower' serif;
-  font-size:2em;
-  
-}
+  font-size: 2em; }
 
-a{
-  text-decoration: none;
-}
+a {
+  text-decoration: none; }
 
-
-h1{
+h1 {
   text-align: center;
-font-size: 3rem;
-}
+  font-size: 3rem; }
 
-body{
-
-}
-
-
-img{
-	border: 2px solid black;
-	max-width: 100%;
-}
-
-p{
-color:black;
-}
-
-.icon{
- min-width: 50px;
- min-height: 50px;	
-}
 /* Beer catagories */
+.beer {
+  margin: 100px auto;
+  text-align: center;
+  max-width: 90%; }
 
+img {
+  border: 2px solid black;
+  max-width: 100%; }
 
-.beer{
-	margin: 100px auto;
-	text-align: center;
-	max-width: 90%;
+p {
+  color: black; }
 
-}
-
-#dryhopped{
-	
-}
-
-#stoneIPA{
-
-}
-
-#wittekerke{
-	
-}
-
+.icon {
+  min-width: 50px;
+  min-height: 50px; }
 
 /* Media Queries */
+@media screen and (max-width: 400px) {
+  html {
+    font-family: 'Lato' sans-serif; }
 
-@media screen and (max-width: 300px) {
-    body {
-        background-color: lightblue;
-    }
-}
+  .mnkyTitle {
+    font-family: 'indie flower' serif;
+    font-size: 2em; }
 
+  a {
+    text-decoration: none; }
+
+  h1 {
+    text-align: center;
+    font-size: 3rem; }
+
+  /* Beer catagories */
+  .beer {
+    margin: 100px auto;
+    text-align: center;
+    max-width: 90%; }
+
+  img {
+    border: 2px solid black;
+    max-width: 100%; }
+
+  p {
+    color: black; }
+
+  .icon {
+    min-width: 50px;
+    min-height: 50px; } }
+@media screen and (min-width 500px) {
+  body {
+    background: lightblue; }
+
+  html {
+    font-family: 'Lato' sans-serif; }
+
+  .mnkyTitle {
+    font-family: 'indie flower' serif;
+    font-size: 2em; }
+
+  a {
+    text-decoration: none; }
+
+  h1 {
+    text-align: center;
+    font-size: 3rem; }
+
+  /* Beer catagories */
+  .beer {
+    margin: 20px;
+    text-align: left;
+    max-width: 90%; }
+
+  img {
+    border: 2px solid black;
+    max-width: 100%; }
+
+  p {
+    color: black; } }

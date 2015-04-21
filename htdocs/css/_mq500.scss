@@ -1,18 +1,31 @@
 
 
-/* Media Queries */
+
 
 
 /* Desktop */
 
-
-@media screen and (max-width 500px){
-
-
-body{
-  background:blue;
+@mixin beer-box{
+  width:33%;
+ 
 }
 
+@media screen and (min-width: 700px){
+
+
+
+.pic{
+  visibility:visible;
+  margin:auto;
+}
+
+#explanation{
+width:40%;
+  border-bottom:1px solid black;
+  border-top:1px solid black;
+  margin:auto;
+  margin-top:10em;
+}
 
 html{
   font-family: 'Lato' sans-serif;
@@ -32,18 +45,29 @@ a{
 h1{
   text-align: center;
 font-size: 3rem;
-}
-
-body{
 
 }
-
 
 
 /* Beer catagories */
 
+.icon{
+  margin-left:40%;
+
+
+}
+
+
+#dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
+  @include beer-box;
+  float:left;
+  height: 300px;
+
+}
+
+
 .beer{
-	margin: 20px;
+	padding: 20px;
 	text-align: left;
 	max-width: 90%;
 
@@ -60,6 +84,5 @@ color:black;
 
 
 
+} /*end of media query*/
 
-
-}

@@ -64,9 +64,11 @@ p {
   .icon {
     min-width: 50px;
     min-height: 50px; } }
-@media screen and (min-width 500px) {
+/* Media Queries */
+/* Desktop */
+@media screen and (max-width 500px) {
   body {
-    background: lightblue; }
+    background: blue; }
 
   html {
     font-family: 'Lato' sans-serif; }
@@ -94,3 +96,5 @@ p {
 
   p {
     color: black; } }
+
+/*# sourceMappingURL=site.css.map */

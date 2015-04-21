@@ -15,6 +15,9 @@ h1 {
   text-align: center;
   font-size: 3rem; }
 
+.pic {
+  visibility: hidden; }
+
 /* Beer catagories */
 .beer {
   margin: 100px auto;
@@ -33,7 +36,19 @@ p {
   min-height: 50px; }
 
 /* Media Queries */
-@media screen and (max-width: 400px) {
+/* Desktop */
+@media screen and (min-width: 700px) {
+  .pic {
+    visibility: visible;
+    margin: auto; }
+
+  #explanation {
+    width: 40%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin: auto;
+    margin-top: 10em; }
+
   html {
     font-family: 'Lato' sans-serif; }
 
@@ -49,42 +64,16 @@ p {
     font-size: 3rem; }
 
   /* Beer catagories */
-  .beer {
-    margin: 100px auto;
-    text-align: center;
-    max-width: 90%; }
-
-  img {
-    border: 2px solid black;
-    max-width: 100%; }
-
-  p {
-    color: black; }
-
   .icon {
-    min-width: 50px;
-    min-height: 50px; } }
-@media screen and (min-width 500px) {
-  body {
-    background: lightblue; }
+    margin-left: 40%; }
 
-  html {
-    font-family: 'Lato' sans-serif; }
+  #dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
+    width: 33%;
+    float: left;
+    height: 300px; }
 
-  .mnkyTitle {
-    font-family: 'indie flower' serif;
-    font-size: 2em; }
-
-  a {
-    text-decoration: none; }
-
-  h1 {
-    text-align: center;
-    font-size: 3rem; }
-
-  /* Beer catagories */
   .beer {
-    margin: 20px;
+    padding: 20px;
     text-align: left;
     max-width: 90%; }
 
@@ -94,3 +83,6 @@ p {
 
   p {
     color: black; } }
+/*end of media query*/
+
+/*# sourceMappingURL=site.css.map */

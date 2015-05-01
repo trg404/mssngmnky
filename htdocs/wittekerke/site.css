@@ -8,39 +8,15 @@
 body {
   background-image: url("img/background.jpg");
   color: #333333;
+  width: 2000px;
   }
-<<<<<<< HEAD
 
-
-
-
-
-=======
->>>>>>> origin/master
-
-img {
-  margin: 0;
-  max-width: 100%; }
-
-
-
-
-td {
-  width: 1200px; }
-
-img {
-  height: auto;
-  width: 100%; }
 
 h1 {
-<<<<<<< HEAD
-  border:1px solid black;
-=======
 padding-top:-5px;
->>>>>>> origin/master
-  width: 3000px;
+  width: 2000px;
   font-size: 7.85377em;
-  text-align: center;
+  text-align: left;
   font-family: sans-serif;
   margin-bottom: 0px; }
 
@@ -50,7 +26,6 @@ p {
 
 .circle {
   verticle-algin: left;
-  *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
@@ -69,7 +44,7 @@ p {
     clear: both; }
 
 .ic1 {
-  padding-top: 9em;
+  padding-top: 7em;
   margin-left: 5em;
   text-align: right;
   float: left;
@@ -77,28 +52,34 @@ p {
   margin-right: 2.35765%;
   width: 31.76157%;
   display: inline;
-  line-height: 1.4em; }
-  .ic1:last-child {
-    margin-right: 0; }
+  line-height: 1.7em; }
+ 
 
 .ic2 {
-  height: 100%;
-  padding-top: 4em;
+
+  padding-top: 3em;
   margin: 0px;
   float: left;
-  display: block;
+  display: inline block;
   margin-right: 2.35765%;
   width: 23.23176%; }
-  .ic2:last-child {
-    margin-right: 0; }
+ 
+
+.ic2 img {
+ width: 100%;
+ margin-top: 6em;
+ margin-left: -1em;
+}
+
+
 
 .ic3 {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  padding-top: 9em;
-  line-height: 1.4em;
+  padding-top: 7em;
+  line-height: 1.5em;
   margin-left: -40px; }
  
 
@@ -112,17 +93,11 @@ figure {
 height:15em;
   position: relative;
   z-index: 1;
-<<<<<<< HEAD
-  float: right; }
+float: left; }
 
-.lower {
-=======
-  float:left; }
 
-.lower {
-height: 280px;
-width: 2000px;
->>>>>>> origin/master
+.lower{
+width: 1000px;
   padding-left: 20px;
   border: .25em solid black;
   border-radius: 25px;
@@ -130,12 +105,7 @@ width: 2000px;
   opacity: 0.7;
   line-height: 1.9em;
   font-weight: bold; 
-<<<<<<< HEAD
-width:; 1000px}
-=======
-  width:; 1000px
-  }
->>>>>>> origin/master
+}
 
 .dropcap {
   font-size: 2em;

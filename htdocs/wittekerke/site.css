@@ -14,7 +14,7 @@ body {
 
 h1 {
 padding-top:-5px;
-  width: 2000px;
+  width: 2200px;
   font-size: 7.85377em;
   text-align: left;
   font-family: sans-serif;
@@ -24,24 +24,22 @@ p {
   font-family: sans-serif;
   font-size: 19.416px; }
 
+.content{
+width:4000px;
+
+}
 .circle {
-  verticle-algin: left;
   max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
   border: .25em solid black;
   background: #DFE8D5;
   height: 600px;
   border-radius: 50%;
   width: 2000px; 
+  float: left;
+  margin-right: 4em;
 }
-  .circle:before, .circle:after 
-  {
-    content: " ";
-    display: table; }
 
-  .circle:after {
-    clear: both; }
+
 
 .ic1 {
   padding-top: 7em;
@@ -68,9 +66,8 @@ p {
 .ic2 img {
  width: 100%;
  margin-top: 6em;
- margin-left: -1em;
+ margin-left: -2em;
 }
-
 
 
 .ic3 {
@@ -83,21 +80,17 @@ p {
   margin-left: -40px; }
  
 
- .ic3:last-child {
-    margin-right: 0; }
 
-figure {
-  margin-left: -20px; }
 
 .bike {
 height:15em;
-  position: relative;
   z-index: 1;
 float: left; }
 
 
 .lower{
-width: 1000px;
+float:left;
+  width: 1000px;
   padding-left: 20px;
   border: .25em solid black;
   border-radius: 25px;
@@ -105,6 +98,7 @@ width: 1000px;
   opacity: 0.7;
   line-height: 1.9em;
   font-weight: bold; 
+  margin-top:5em;
 }
 
 .dropcap {

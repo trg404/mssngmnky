@@ -14,11 +14,22 @@
 
 
 
-.pic{
+.your-class{
   visibility:visible;
   margin:auto;
 }
+ .slide1{
 
+  background: #00ff00 url("../img/dock.jpeg") no-repeat; 
+  border: 5px solid black;
+  border-radius: 50;
+  height:400px;
+ }
+ 
+.slide2{
+  border: 5px solid black;
+ 
+}
 #explanation{
 width:40%;
   border-bottom:1px solid black;

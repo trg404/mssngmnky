@@ -48,7 +48,9 @@ p {
 /* Desktop */
 @media screen and (min-width: 700px) {
   .headimg {
-    display: inline; }
+    display: block;
+    width: 90%;
+    margin: 5em auto; }
 
   .your-class {
     visibility: visible;

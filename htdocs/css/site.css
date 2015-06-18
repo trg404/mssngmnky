@@ -6,7 +6,8 @@ html {
 
 .mnkyTitle {
   font-family: 'indie flower' serif;
-  font-size: 2em; }
+  font-size: 2em;
+  margin: 1em; }
 
 a {
   text-decoration: none; }

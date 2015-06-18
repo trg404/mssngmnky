@@ -18,6 +18,9 @@ h1 {
 .your-class {
   visibility: hidden; }
 
+.headimg {
+  display: none; }
+
 /* Beer catagories */
 .beer {
   margin: 100px auto;
@@ -35,28 +38,28 @@ p {
   min-width: 50px;
   min-height: 50px; }
 
+#explanation {
+  width: 50%;
+  margin: 5em auto;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black; }
+
 /* Media Queries */
 /* Desktop */
 @media screen and (min-width: 700px) {
+  .headimg {
+    display: inline; }
+
   .your-class {
     visibility: visible;
     margin: auto; }
 
-  .slide1 {
-    background: lime url("../img/dock.jpeg") no-repeat;
-    border: 5px solid black;
-    border-radius: 50;
-    height: 400px; }
-
-  .slide2 {
-    border: 5px solid black; }
-
   #explanation {
-    width: 40%;
+    width: 30.5em;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     margin: auto;
-    margin-top: 10em; }
+    margin-top: 5em; }
 
   html {
     font-family: 'Lato' sans-serif; }
@@ -93,3 +96,5 @@ p {
   p {
     color: black; } }
 /*end of media query*/
+
+/*# sourceMappingURL=site.css.map */

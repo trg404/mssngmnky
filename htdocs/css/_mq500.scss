@@ -12,6 +12,11 @@
 
 @media screen and (min-width: 700px){
 
+.mnkyTitle{
+  font-family: 'indie flower' serif;
+  font-size:2em;
+  
+}
 
 .headimg{
 display:block;
@@ -20,29 +25,15 @@ margin: 5em auto;
 
 }
 
-.your-class{
-  visibility:visible;
-  margin:auto;
-}
-
 
 #explanation{
  width: 30.5em;
   border-bottom:1px solid black;
   border-top:1px solid black;
-  margin:auto;
-  margin-top:5em;
+  margin:5 em auto;
+ 
 }
 
-html{
-  font-family: 'Lato' sans-serif;
-}
-
-.mnkyTitle{
-  font-family: 'indie flower' serif;
-  font-size:2em;
-  
-}
 
 a{
   text-decoration: none;
@@ -51,7 +42,7 @@ a{
 
 h1{
   text-align: center;
-font-size: 3rem;
+  font-size: 3rem;
 
 }
 
@@ -59,8 +50,7 @@ font-size: 3rem;
 /* Beer catagories */
 
 .icon{
-  margin-left:40%;
-
+  margin:auto;
 
 }
 
@@ -75,9 +65,9 @@ font-size: 3rem;
 
 
 .beer{
-	padding: 20px;
-	text-align: left;
+	text-align: center;
 	max-width: 90%;
+  margin: auto;
 
 }
 

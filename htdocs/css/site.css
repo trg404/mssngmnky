@@ -24,7 +24,7 @@ h1 {
 
 /* Beer catagories */
 .beer {
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: center;
   max-width: 90%; }
 
@@ -48,28 +48,20 @@ p {
 /* Media Queries */
 /* Desktop */
 @media screen and (min-width: 700px) {
+  .mnkyTitle {
+    font-family: 'indie flower' serif;
+    font-size: 2em; }
+
   .headimg {
     display: block;
     width: 90%;
     margin: 5em auto; }
 
-  .your-class {
-    visibility: visible;
-    margin: auto; }
-
   #explanation {
     width: 30.5em;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    margin: auto;
-    margin-top: 5em; }
-
-  html {
-    font-family: 'Lato' sans-serif; }
-
-  .mnkyTitle {
-    font-family: 'indie flower' serif;
-    font-size: 2em; }
+    margin: 5 em auto; }
 
   a {
     text-decoration: none; }
@@ -80,7 +72,7 @@ p {
 
   /* Beer catagories */
   .icon {
-    margin-left: 40%; }
+    margin: auto; }
 
   #dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
     width: 33%;
@@ -88,9 +80,9 @@ p {
     height: 300px; }
 
   .beer {
-    padding: 20px;
-    text-align: left;
-    max-width: 90%; }
+    text-align: center;
+    max-width: 90%;
+    margin: auto; }
 
   img {
     border: 2px solid black;

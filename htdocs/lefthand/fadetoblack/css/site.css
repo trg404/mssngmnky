@@ -1,0 +1,35 @@
+body {
+  background: black;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Bitter', serif; }
+
+.container {
+  background: black;
+  width: 90%;
+  margin: -10px auto; }
+
+.picheader {
+  background: url(../img/textblack.svg) no-repeat, url(../img/city.jpg) no-repeat, white;
+  width: 600px;
+  height: 600px;
+  margin: auto; }
+
+article {
+  width: 50%;
+  margin: auto;
+  text-align: center; }
+
+.lower {
+  width: 85%;
+  margin: auto; }
+
+.left {
+  width: 45%;
+  float: left; }
+
+.right {
+  width: 48%;
+  float: left; }
+
+/*# sourceMappingURL=site.css.map */

@@ -1,74 +1,7 @@
 
-
-
 *{
 box-sizing:border-box;
 }
 
-
-html{
-  font-family: 'Lato' sans-serif;
-}
-
-.mnkyTitle{
-  font-family: 'indie flower' serif;
-  font-size:2em;
-  margin: 1em;
-  
-}
-
-a{
-  text-decoration: none;
-}
-
-
-h1{
-    text-align: center;
-    font-size: 3rem;
-
-}
-
-.your-class{
-  visibility:hidden;
-}
-
-.headimg{
-  display:none;
-}
-
-/* Beer catagories */
-
-.beer{
-	margin: 50px auto;
-	text-align: center;
-	max-width: 90%;
-
-}
-
-img{
-  border: 2px solid black;
-  max-width: 100%;
-}
-
-p{
-color:black;
-}
-
-.icon{
- min-width: 50px;
- min-height: 50px;  
-}
-
-
-#explanation{
-width: 50%;
-margin: 5em auto;
-  border-bottom:1px solid black;
-  border-top:1px solid black;
-}
-
-
-/* Media Queries */
-
-
-@import "mq500";
+@import "base";
+@import "desktop";

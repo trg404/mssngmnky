@@ -5,31 +5,37 @@ body {
   font-family: 'Bitter', serif; }
 
 .container {
-  background: black;
-  width: 90%;
-  margin: -10px auto; }
-
-.picheader {
-  background: url(../img/textblack.svg) no-repeat, url(../img/city.jpg) no-repeat, white;
-  width: 600px;
-  height: 600px;
-  margin: auto; }
+  height: 0px;
+  padding: 0px;
+  padding-bottom: calc(100% * 3/4);
+  background-size: cover;
+  background: url(../img/main.svg) no-repeat, white;
+  margin: 0px auto;
+  color: grey; }
 
 article {
-  width: 50%;
+  background: black;
+  width: 68%;
   margin: auto;
-  text-align: center; }
-
-.lower {
-  width: 85%;
-  margin: auto; }
+  floatl: left;
+  display: inline block;
+  text-align: center;
+  border: 5px solid white; }
 
 .left {
-  width: 45%;
-  float: left; }
+  width: 20%;
+  background: url(../img/left.svg), white;
+  background-size: cover;
+  height: 0;
+  padding: 0;
+  /* reset */
+  padding-bottom: calc(100% * 3 / 4);
+  float: left;
+  margin-top: 60%; }
 
 .right {
-  width: 48%;
-  float: left; }
+  width: 30%;
+  float: left;
+  background: url(../img/right.svg) no-repeat, white; }
 
 /*# sourceMappingURL=site.css.map */

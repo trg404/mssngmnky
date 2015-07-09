@@ -1,14 +1,9 @@
 
-
-
-
-
 /* Desktop */
 
 @mixin beer-box{
   width:33%;
- 
-}
+ }
 
 @media screen and (min-width: 700px){
 
@@ -48,6 +43,7 @@ h1{
 
 
 /* Beer catagories */
+
 
 .icon{
   margin:auto;

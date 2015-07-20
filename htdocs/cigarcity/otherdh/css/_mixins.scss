@@ -1,0 +1,23 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.spacing{
+	width:90%;
+	margin: 0px auto;
+}
+
+.box{
+	@include border-radius(25px);
+	@extend .spacing;
+	width: 50%;
+	background: lightblue;
+	border: 4px solid black;
+	margin:auto;
+}
+p{
+	
+}

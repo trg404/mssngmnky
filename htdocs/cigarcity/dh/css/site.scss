@@ -1,0 +1,30 @@
+@import "normalize";
+@import "mixins";
+@import "top";
+@import "middle";
+@import "bottom";
+
+
+
+
+
+body{
+	background-image:url("/img/ocean.jpg");	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+
+
+p{
+		font-family: 'Amatic SC', cursive;
+		font-size: 2em;
+		margin:20px;
+
+	}
+
+
+
+@import"mediaQ";

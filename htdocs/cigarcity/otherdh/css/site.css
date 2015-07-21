@@ -18,6 +18,17 @@ html {
 body {
   margin: 0; }
 
+/* Box sizing */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -189,11 +200,11 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
-.spacing, .box, #top, .hops {
+.spacing, .box, #top, .hops, #bottom {
   width: 90%;
   margin: 0px auto; }
 
-.box, #top, .hops {
+.box, #top, .hops, #bottom {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -202,26 +213,6 @@ samp {
   background: lightblue;
   border: 4px solid black;
   margin: auto; }
-
-#top {
-  margin-bottom: 100px; }
-
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit; }
-
-body {
-  background-image: url("/img/ocean.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 5000px; }
 
 h1, h2 {
   text-align: center;
@@ -236,11 +227,31 @@ p {
   font-size: 2em;
   margin: 20px; }
 
+#top {
+  margin-bottom: 100px; }
+
+#middle {
+  margin-bottom: 100px; }
+
+#bottom {
+  margin-bottom: 50px; }
+
+body {
+  background-image: url("/img/ocean.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  margin: 20px; }
+
 @media (max-width: 875px) {
   h1, h2 {
     color: white; }
 
-  .box, #top, .hops {
+  .box, #top, .hops, #bottom {
     width: 85%; } }
 
 /*# sourceMappingURL=site.css.map */

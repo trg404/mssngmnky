@@ -2,40 +2,21 @@
 @import "mixins";
 @import "top";
 @import "middle";
+@import "bottom";
 
 
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-  }
 
 
 
 body{
-background-image:url("/img/ocean.jpg");	
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-height: 5000px;
+	background-image:url("/img/ocean.jpg");	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 
-h1{
-	text-align:center;
-	font-family: 'Covered By Your Grace', cursive;
-	font-size: 5em;
-	}
 
-h2 {
-	@extend h1;
-	font-size: 3em;
-}
 
 p{
 		font-family: 'Amatic SC', cursive;
@@ -44,10 +25,6 @@ p{
 
 	}
 
-
-#bottom{
-	
-}
 
 
 @import"mediaQ";

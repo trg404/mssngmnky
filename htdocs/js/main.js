@@ -1,6 +1,12 @@
+$(document).ready(function(){
+	$('.your-class').slick({
+		arrows: true,
+		dots: true,
+});
 
-//# sourceMappingURL=main.js.map
-//# sourceMappingURL=main.js.map
-//# sourceMappingURL=main.js.map
-//# sourceMappingURL=main.js.map
-//# sourceMappingURL=main.js.map
+
+$('.single-item-rtl').slick({
+  rtl: true
+});
+				
+});

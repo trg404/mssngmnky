@@ -365,17 +365,16 @@ th {
 
 body {
   background: black;
-  color: black;
   font-size: 1.25em;
   font-family: 'Bitter', serif; }
 
 .container {
   background: url(../img/main.svg), white;
   background-size: contain;
-  height: 1400px;
+  height: 1310px;
   width: 100%;
   color: black;
-  border: 5px solid black; }
+  border: 10px solid black; }
 
 .banner {
   position: absolute;
@@ -389,27 +388,33 @@ body {
   height: 500px;
   margin-top: 40%; }
 
-footer {
+.bottom {
   position: absolute;
-  top: 110%;
-  width: 100%; }
-
-article {
-  background: white;
-  float: left;
-  width: 32%;
-  border: 5px solid black;
-  position: relative;
-  top: 200px; }
+  bottom: 0px;
+  width: 100%;
+  border: 5px solid pink; }
 
 .skull {
   background: white;
-  float: left;
   width: 32%;
-  border: 5px solid black; }
+  border: 5px solid black;
+  bottom: 0;
+  left: 0; }
+
+article {
+  background: white;
+  width: 32%;
+  height: 20%;
+  border: 5px solid black;
+  bottom: 0; }
 
 .crow {
   background: white;
   float: left;
   width: 32%;
-  border: 5px solid black; }
+  border: 5px solid black;
+  poistion: absolute;
+  bottom: 0;
+  right: 0; }
+
+/*# sourceMappingURL=site.css.map */

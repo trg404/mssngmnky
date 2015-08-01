@@ -1,4 +1,5 @@
 
+
 /* Desktop */
 
 @mixin beer-box{
@@ -6,11 +7,10 @@
  }
 
 @media screen and (min-width: 700px){
-
-
+  
 .your-class{
-background: grey;
-border: 4px solid black;
+  background: grey;
+  margin: auto;
 }
 
 

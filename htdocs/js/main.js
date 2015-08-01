@@ -1,12 +1,5 @@
-$(document).ready(function(){
-	$('.your-class').slick({
-		arrows: true,
-		dots: true,
-});
-
-
-$('.single-item-rtl').slick({
-  rtl: true
-});
-				
-});
+ $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });

@@ -1,14 +1,11 @@
  $(document).ready(function(){
       $('.your-class').slick({
-<<<<<<< HEAD
-        adaptiveHeigh: true
-    }
-    });
-=======
-       dots: true
+       dots: true, 
+    	adaptiveHeight: true,
+    	arrows: false,
+    	autoplay: true
       });
 
       $('.single-item').slick();
     });
 
->>>>>>> origin/master

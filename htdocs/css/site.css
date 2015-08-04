@@ -41,9 +41,8 @@ p {
 
 /* Desktop */
 @media screen and (min-width: 700px) {
-  .your-class {
-    background: grey;
-    margin: auto; }
+  .your-class img {
+    width: 100%; }
 
   #explanation {
     width: 30.5em;
@@ -78,3 +77,5 @@ p {
   p {
     color: black; } }
 /*end of media query*/
+
+/*# sourceMappingURL=site.css.map */

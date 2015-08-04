@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"background",
 				"background-size"
 			],
@@ -83,7 +87,14 @@
 			"file": "index.html",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 4213,
+=======
+<<<<<<< HEAD
+				"buffer_size": 4184,
+=======
+				"buffer_size": 4125,
+>>>>>>> origin/master
 				"line_ending": "Unix"
 			}
 		},
@@ -100,6 +111,7 @@
 			"settings":
 			{
 				"buffer_size": 332,
+>>>>>>> origin/master
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +119,14 @@
 			"file": "css/_desktop.scss",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 644,
+=======
+<<<<<<< HEAD
+				"buffer_size": 641,
+=======
+				"buffer_size": 663,
+>>>>>>> origin/master
 				"line_ending": "Unix"
 			}
 		},
@@ -124,6 +143,7 @@
 			"settings":
 			{
 				"buffer_size": 64,
+>>>>>>> origin/master
 				"line_ending": "Unix"
 			}
 		}
@@ -169,6 +189,25 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		"/Users/mark/Documents/mssngmnky/htdocs/css",
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/css",
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/img"
+	],
+	"file_history":
+	[
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/css/main.css",
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/index.html",
+		"/Users/mark/Documents/mssngmnky/htdocs/index.html",
+		"/Users/mark/Documents/mssngmnky/htdocs/js/main.js",
+		"/Users/mark/Documents/mssngmnky/htdocs/css/_base.scss",
+		"/Users/mark/Documents/mssngmnky/htdocs/css/_desktop.scss",
+		"/Users/mark/Documents/mssngmnky/htdocs/css/site.scss",
+=======
+		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity",
+>>>>>>> origin/master
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/css",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/img"
@@ -177,6 +216,7 @@
 	[
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/index.html",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/js/main.js",
+>>>>>>> origin/master
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/index.html",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/js/main.js",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/lefthand/fadetoblack/index.html",
@@ -306,7 +346,15 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 4213,
+=======
+<<<<<<< HEAD
+						"buffer_size": 4184,
+=======
+						"buffer_size": 4125,
+>>>>>>> origin/master
+>>>>>>> origin/master
 						"regions":
 						{
 						},
@@ -332,6 +380,8 @@
 				},
 				{
 					"buffer": 1,
+<<<<<<< HEAD
+=======
 					"file": "js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -388,24 +438,43 @@
 				},
 				{
 					"buffer": 3,
+>>>>>>> origin/master
 					"file": "css/_desktop.scss",
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 644,
+=======
+<<<<<<< HEAD
+						"buffer_size": 641,
+=======
+						"buffer_size": 663,
+>>>>>>> origin/master
+>>>>>>> origin/master
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								180,
 								180
+=======
+<<<<<<< HEAD
+								117,
+								117
+=======
+								136,
+								136
+>>>>>>> origin/master
+>>>>>>> origin/master
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -413,7 +482,15 @@
 						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 2,
+=======
+<<<<<<< HEAD
+					"stack_index": 1,
+					"type": "text"
+=======
+					"stack_index": 5,
+>>>>>>> origin/master
 					"type": "text"
 				},
 				{
@@ -473,6 +550,7 @@
 					},
 					"stack_index": 5,
 					"type": "text"
+>>>>>>> origin/master
 				}
 			]
 		}
@@ -483,7 +561,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

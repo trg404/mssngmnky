@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"background",
 				"background-size"
 			],
@@ -83,15 +87,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3912,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/site.scss",
-			"settings":
-			{
-				"buffer_size": 64,
+				"buffer_size": 4184,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,23 +95,7 @@
 			"file": "css/_desktop.scss",
 			"settings":
 			{
-				"buffer_size": 610,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/_base.scss",
-			"settings":
-			{
-				"buffer_size": 567,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/main.js",
-			"settings":
-			{
-				"buffer_size": 123,
+				"buffer_size": 641,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,8 +139,21 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/mark/Documents/mssngmnky/htdocs/css",
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/css",
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/img"
+	],
 	"file_history":
 	[
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/css/main.css",
+		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/index.html",
+		"/Users/mark/Documents/mssngmnky/htdocs/index.html",
+		"/Users/mark/Documents/mssngmnky/htdocs/js/main.js",
+		"/Users/mark/Documents/mssngmnky/htdocs/css/_base.scss",
+		"/Users/mark/Documents/mssngmnky/htdocs/css/_desktop.scss",
+		"/Users/mark/Documents/mssngmnky/htdocs/css/site.scss",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/index.html",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/js/main.js",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/lefthand/fadetoblack/index.html",
@@ -282,7 +275,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -291,7 +284,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3912,
+						"buffer_size": 4184,
 						"regions":
 						{
 						},
@@ -312,123 +305,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/site.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 64,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/_desktop.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 610,
+						"buffer_size": 641,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								89,
-								89
+								117,
+								117
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/_base.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 567,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								331,
-								331
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 345.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -440,7 +347,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

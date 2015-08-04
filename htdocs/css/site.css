@@ -8,7 +8,6 @@ body {
   background-color: #D7C5B4; }
 
 a {
-  text-decoration: none; }
   text-decoration: none;
   color: #575553; }
 
@@ -46,7 +45,9 @@ p {
 
   .pullquote {
     background-color: #BD5B50; }
+
   #explanation {
+    width: 30.5em; }
 
   a {
     text-decoration: none; }

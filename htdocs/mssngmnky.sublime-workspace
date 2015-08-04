@@ -87,7 +87,27 @@
 			"file": "index.html",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 4184,
+=======
+				"buffer_size": 4125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cigarcity/dh/css/site.scss",
+			"settings":
+			{
+				"buffer_size": 332,
+>>>>>>> origin/master
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +115,27 @@
 			"file": "css/_desktop.scss",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 641,
+=======
+				"buffer_size": 663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/_base.scss",
+			"settings":
+			{
+				"buffer_size": 540,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/site.scss",
+			"settings":
+			{
+				"buffer_size": 64,
+>>>>>>> origin/master
 				"line_ending": "Unix"
 			}
 		}
@@ -141,6 +181,7 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/Users/mark/Documents/mssngmnky/htdocs/css",
 		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/css",
 		"/Users/mark/Documents/mssngmnky/htdocs/oskarblues/dalespale/img"
@@ -154,13 +195,23 @@
 		"/Users/mark/Documents/mssngmnky/htdocs/css/_base.scss",
 		"/Users/mark/Documents/mssngmnky/htdocs/css/_desktop.scss",
 		"/Users/mark/Documents/mssngmnky/htdocs/css/site.scss",
+=======
+		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity",
+		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh",
+		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/css",
+		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/img"
+	],
+	"file_history":
+	[
+		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/index.html",
+		"/Users/Alai/Websites/github/mssngmnky/htdocs/js/main.js",
+>>>>>>> origin/master
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/index.html",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/cigarcity/dh/js/main.js",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/lefthand/fadetoblack/index.html",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/lefthand/fadetoblack/css/site.scss",
 		"/Users/Alai/Websites/wedding-website-template/server/public/css/main.css",
 		"/Users/Alai/Websites/wedding-website-template/server/app.js",
-		"/Users/Alai/Websites/github/mssngmnky/htdocs/js/main.js",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/css/_desktop.scss",
 		"/Users/Alai/Websites/github/mssngmnky/htdocs/img/dock.jpeg",
 		"/Applications/Popcorn-Time.app/Contents/Resources/app.nw/node_modules/chromecast-js/pt-media-receiver.js",
@@ -284,15 +335,19 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 4184,
+=======
+						"buffer_size": 4125,
+>>>>>>> origin/master
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4018,
+								4018
 							]
 						],
 						"settings":
@@ -302,7 +357,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -310,19 +365,87 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/_desktop.scss",
+<<<<<<< HEAD
+=======
+					"file": "js/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 641,
+						"buffer_size": 103,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cigarcity/dh/css/site.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+>>>>>>> origin/master
+					"file": "css/_desktop.scss",
+					"semi_transient": false,
+					"settings":
+					{
+<<<<<<< HEAD
+						"buffer_size": 641,
+=======
+						"buffer_size": 663,
+>>>>>>> origin/master
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD
 								117,
 								117
+=======
+								136,
+								136
+>>>>>>> origin/master
 							]
 						],
 						"settings":
@@ -335,8 +458,71 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 1,
 					"type": "text"
+=======
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/site.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+>>>>>>> origin/master
 				}
 			]
 		}

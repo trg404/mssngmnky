@@ -4,13 +4,13 @@
 html {
   font-family: 'Lato' sans-serif; }
 
-.mnkyTitle {
-  font-family: 'indie flower' serif;
-  font-size: 2em;
-  margin: 1em; }
+body {
+  background-color: #D7C5B4; }
 
 a {
   text-decoration: none; }
+  text-decoration: none;
+  color: #575553; }
 
 h1 {
   text-align: center;
@@ -44,10 +44,9 @@ p {
   .your-class {
     width: 100%; }
 
+  .pullquote {
+    background-color: #BD5B50; }
   #explanation {
-    width: 30.5em;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black; }
 
   a {
     text-decoration: none; }
@@ -77,5 +76,3 @@ p {
   p {
     color: black; } }
 /*end of media query*/
-
-/*# sourceMappingURL=site.css.map */

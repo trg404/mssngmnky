@@ -46,7 +46,6 @@ p {
 
 /* Desktop */
 @media screen and (min-width: 700px) {
-  .your-class img {
   .your-class {
     width: 100%; }
 

@@ -1,12 +1,20 @@
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Lato' sans-serif; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
+
+body {
+  background-color: #D7C5B4; }
+
+img {
+  max-width: 100%;
+  border: 2px solid black; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -414,21 +422,16 @@ th {
   padding: 0; }
 
 .carousel {
-  margin: 0 auto 5%;
-  width: 100%;
-  height: 100%; }
-
-.bg {
-  width: 1200px;
-  height: 800px;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
-
-.headimg {
+  width: 90%;
   margin: auto; }
+  .carousel img {
+    min-width: 100%; }
 
+@media screen and (min-width: 700px) {
+  .carousel {
+    margin: 0 auto 5%;
+    width: 100%;
+    height: 100%; } }
 #explanation {
   width: 50%;
   margin: 5em auto;
@@ -440,67 +443,17 @@ th {
     background-color: #BD5B50;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin: 5% auto; }
+    display: block;
+    margin: 5% 0; }
 
   #explanation {
     width: 30.5em;
     border: none;
-    margin: auto; } }
-html {
-  font-family: 'Lato' sans-serif; }
-
-body {
-  background-color: #D7C5B4; }
-
-a {
-  text-decoration: none;
-  color: #575553; }
-
-h1 {
-  text-align: center;
-  font-size: 3rem; }
-
+    margin: 1em auto; } }
 /* Beer catagories */
-.beer {
-  margin: 50px auto;
-  text-align: center;
-  max-width: 90%; }
-
-img {
-  border: 2px solid black;
-  max-width: 100%; }
-
-p {
-  color: black; }
-
-.icon {
-  min-width: 50px;
-  min-height: 50px; }
-
-/* Desktop */
 @media screen and (min-width: 700px) {
-  a {
-    text-decoration: none; }
-
-  h1 {
-    text-align: center;
-    font-size: 3rem; }
-
-  /* Beer catagories */
-  .icon {
-    margin: auto; }
-
   #dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
     width: 33%;
-    float: left; }
-
-  .beer {
-    text-align: center;
-    max-width: 90%;
-    margin: auto; }
-
-  img {
-    border: 2px solid black;
-    min-width: 100%; } }
+    float: left; } }
 
 /*# sourceMappingURL=site.css.map */

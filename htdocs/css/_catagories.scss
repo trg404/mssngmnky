@@ -1,0 +1,15 @@
+// catagories
+
+/* Beer catagories */
+@mixin beer-box{
+  width:33%;
+  float: left;
+ }
+
+@media screen and (min-width: 700px){
+  
+#dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
+  @include beer-box;
+}
+
+}

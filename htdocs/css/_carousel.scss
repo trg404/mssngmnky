@@ -1,23 +1,26 @@
 // Carousel css
-.bg{
-	background-size: 1275px 775px;
-	height: (775px/2);
-	border: 2px solid black;
-}
 
 .carousel{
 	margin: 0 auto 5%;
 	width: 90%;
 }
 
+.bg{
+	background-size: 1275px 775px;
+	height: (775px/2)*2;
+	border: 2px solid black;
+}
 
 .coat{
 	@extend .bg;
-	background: url("../img/header/coat@1x.jpg") no-repeat;
+	background: url("../img/header/coat@2x.jpg") no-repeat;
+
 }
+
 .stars{
 	@extend .bg;
 	background: url('../img/header/stars@1x.jpg') no-repeat;
+
 }
 
 .field{

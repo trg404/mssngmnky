@@ -1,0 +1,26 @@
+//explanation
+
+#explanation{
+	width: 50%;
+	margin: 5em auto;
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+
+@media screen and (min-width: 700px){
+	.pullquote{
+	  background-color: #BD5B50;
+	  border-top: 1px solid black;
+	  border-bottom: 1px solid black;
+	  display:block;
+	 }
+
+
+	#explanation{
+	 width: 30.5em;
+	 border: none;
+	 margin: 1em auto ;
+	}
+
+
+}

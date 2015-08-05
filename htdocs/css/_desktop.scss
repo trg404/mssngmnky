@@ -4,6 +4,7 @@
 
 @mixin beer-box{
   width:33%;
+  float: left;
  }
 
 @media screen and (min-width: 700px){
@@ -34,15 +35,6 @@ h1{
 
 #dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
   @include beer-box;
-  float:left;
-  height: 300px;
-
-
-}
-
-.brews{
-  margin-top: 5%;
-
 }
 
 
@@ -55,14 +47,9 @@ h1{
 
 img{
   border: 2px solid black;
-  max-width: 100%;
-}
-
-p{
-color:black;
+  min-width: 100%;
 }
 
 
-
-} /*end of media query*/
+}
 

@@ -415,27 +415,19 @@ th {
 
 .carousel {
   margin: 0 auto 5%;
-  width: 90%; }
+  width: 90%;
+  height: 100%; }
 
-.bg, .coat, .stars, .field, .rock, .bus {
-  background-size: 1275px 775px;
-  height: 775px;
-  border: 2px solid black; }
+.bg {
+  width: 1200px;
+  height: 800px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
 
-.coat {
-  background: url("../img/header/coat@2x.jpg") no-repeat; }
-
-.stars {
-  background: url("../img/header/stars@1x.jpg") no-repeat; }
-
-.field {
-  background: url("../img/header/field@1x.jpg") no-repeat; }
-
-.rock {
-  background: url("../img/header/rock@1x.jpg") no-repeat; }
-
-.bus {
-  background: url("../img/header/bus@1x.jpg") no-repeat; }
+.headimg {
+  margin: auto; }
 
 #explanation {
   width: 50%;
@@ -448,12 +440,12 @@ th {
     background-color: #BD5B50;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    display: block; }
+    margin: 5% auto; }
 
   #explanation {
     width: 30.5em;
     border: none;
-    margin: 1em auto; } }
+    margin: auto; } }
 html {
   font-family: 'Lato' sans-serif; }
 
@@ -500,11 +492,7 @@ p {
 
   #dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
     width: 33%;
-    float: left;
-    height: 300px; }
-
-  .brews {
-    margin-top: 5%; }
+    float: left; }
 
   .beer {
     text-align: center;
@@ -513,8 +501,6 @@ p {
 
   img {
     border: 2px solid black;
-    max-width: 100%; }
+    min-width: 100%; } }
 
-  p {
-    color: black; } }
-/*end of media query*/
+/*# sourceMappingURL=site.css.map */

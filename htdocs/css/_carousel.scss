@@ -3,36 +3,19 @@
 .carousel{
 	margin: 0 auto 5%;
 	width: 90%;
+	height: 100%;
 }
 
 .bg{
-	background-size: 1275px 775px;
-	height: (775px/2)*2;
-	border: 2px solid black;
+	width: 1200px;
+	height: 800px;
+	
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
-.coat{
-	@extend .bg;
-	background: url("../img/header/coat@2x.jpg") no-repeat;
-
-}
-
-.stars{
-	@extend .bg;
-	background: url('../img/header/stars@1x.jpg') no-repeat;
-
-}
-
-.field{
-	@extend .bg;
-	background: url('../img/header/field@1x.jpg') no-repeat;
-}
-
-.rock{
-	@extend .bg;
-	background: url('../img/header/rock@1x.jpg') no-repeat;
-}
-.bus{
-	@extend .bg;
-	background: url('../img/header/bus@1x.jpg') no-repeat;
+.headimg{
+	margin: auto;
 }

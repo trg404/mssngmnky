@@ -1,14 +1,16 @@
 body{
-	background: #fff url('../img/guinnessBackground.png');
+	background: #fff url('../img/guinnessBackground.png') fixed no-repeat;
 	color: white;
 }
  .content{
- width: 12%;
- margin-left: 5%;
- margin-top:5%;
+ width: 20%;
+ margin: 10% 10%;
+ text-align: center;
+
  }
 
  h1{
  text-align: center;
  font-family: 'Irish Grover', cursive;
+ font-size: 10;
  }

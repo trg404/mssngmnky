@@ -1,0 +1,30 @@
+@media (max-width: 700px){
+	
+	body{
+		background: $green url('../img/bottleM.jpg') no-repeat;
+		background-size: cover;
+	}
+
+	p{
+		font-size: em(24);
+		width:100%;
+	}
+
+	#rightside{
+	@include span-columns(0);	
+		img{
+		display: none;
+		}
+	}
+
+	#leftside{
+		@include span-columns(10);
+		@include shift(1);
+		margin-top:0;
+		p{
+			@include shift (0);
+			line-height: 1.5em;
+		}
+	}
+
+}

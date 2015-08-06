@@ -1,19 +1,15 @@
 @import "bourbon/bourbon";
-@import "bitters/bitters";
 @import "neat/neat";
 
 $green: #00904c;
 
-
-html{
+body{
 	background-color: $green;
 }
 
 #leftside { 
-
-		margin-top: 20em;
+	margin-top: 20em;
 	@include span-columns(6);
-
 }
 
 #rightside{
@@ -23,14 +19,18 @@ html{
 
 }
 img{ 
-float: right;
-width: 120%;
+	float: right;
+	width: 120%;
 }
 
 
 p{
- @include shift(3);
- font-family: 'Roboto', sans-serif;
+	@include shift(3);
+	font-family: 'Roboto', sans-serif;
 	font-size: em(16);
 	color:white;
 }
+
+//media queries
+
+@import "mobile";

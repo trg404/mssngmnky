@@ -1,4 +1,13 @@
+ $(document).ready(function(){
+      $('.carousel').slick({
+       dots: true, 
+    	arrows: false,
+    	// autoplay: true
+      });
 
-//# sourceMappingURL=main.js.map
+      $('.single-item').slick();
+    });
+
+
 //# sourceMappingURL=main.js.map
 //# sourceMappingURL=main.js.map

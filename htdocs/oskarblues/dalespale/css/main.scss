@@ -13,20 +13,24 @@ header{
     text-align:center;
     padding-bottom: 0px;
     color: white;
+    background: rgba(0,0,0,0.3);
+    margin-top:-1em;
 }
 
 h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 6em;
-    background: rgba(0,0,0,0.3);
+   
 
 }
 
 body{
     font-family: 'Raleway', sans-serif;
-    background: $cardColor url('../img/background.jpg') no-repeat;
-    background-size: cover;
+    background: black url('../img/background.jpg') repeat-x;
+    background-size: cover; 
+    background-position: fixed;
+    position: absolute;
 }
 
 .container{
@@ -37,7 +41,6 @@ body{
 .left{
     @include span-columns(6);
     padding: 1em;
-  
 }
 
 
@@ -48,11 +51,9 @@ body{
     padding: 1em;
 }
 
-
 .toptext , .bottomtext{
-  
-
    color:white;
+   padding: 1em;
 }
 
 

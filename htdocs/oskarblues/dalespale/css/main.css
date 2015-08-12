@@ -195,18 +195,18 @@ picture {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: #dedede;
-  text-align: center;
-  margin: 100px 50px;
-  padding: 10px;
-  opacity: 0.6; }
+  border-bottom-right-radius: 10px; }
 
 .compare {
+  margin-top: 4em;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  width: 90%; }
+  border: 1px solid white;
+  color: white;
+  width: 90%;
+  padding: .5em;
+  background: rgba(0, 0, 0, 0.3); }
   .compare::after {
     clear: both;
     content: "";
@@ -219,8 +219,7 @@ picture {
   display: block;
   margin-right: 2.35765%;
   width: 40.29137%;
-  text-align: left;
-  opacity: 1; }
+  text-align: left; }
   .blue:last-child {
     margin-right: 0; }
 
@@ -251,18 +250,21 @@ ul {
 header {
   text-align: center;
   padding-bottom: 0px;
-  color: white; }
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: -1em; }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  font-size: 6em;
-  background: rgba(0, 0, 0, 0.3); }
+  font-size: 6em; }
 
 body {
   font-family: 'Raleway', sans-serif;
-  background: #dedede url("../img/background.jpg") no-repeat;
-  background-size: cover; }
+  background: black url("../img/background.jpg") repeat-x;
+  background-size: cover;
+  background-position: fixed;
+  position: absolute; }
 
 .container {
   max-width: 68em;
@@ -294,6 +296,7 @@ body {
     margin-right: 0; }
 
 .toptext, .bottomtext {
-  color: white; }
+  color: white;
+  padding: 1em; }
 
 /*# sourceMappingURL=main.css.map */

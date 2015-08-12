@@ -1,7 +1,12 @@
 .compare{
+	margin-top: 4em;
     @include outer-container;
     @extend .borders;
+    border: 1px solid white;
+    color: white;
     width: 90%;
+    padding: .5em;
+    background: rgba(0,0,0,0.3);
     
     h3{
     text-align: center;
@@ -11,7 +16,6 @@
 .blue{
     @include span-columns(5);
     text-align:left;
-    opacity: 1;
 }
 
 .purple{

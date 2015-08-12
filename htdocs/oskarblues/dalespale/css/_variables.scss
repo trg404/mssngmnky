@@ -3,10 +3,4 @@ $cardColor: #dedede;
 .borders{
     @include border-top-radius(10px);
     @include border-bottom-radius(10px);
-    background-color: $cardColor;
-    text-align: center;
-
-    margin: 100px 50px;
-    padding: 10px;
-    opacity: 0.6;
 }

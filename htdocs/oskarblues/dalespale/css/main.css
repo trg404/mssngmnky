@@ -191,20 +191,22 @@ picture {
   margin: 0;
   max-width: 100%; }
 
-.borders, .compare, header, .toptext, .bottomtext {
+.borders, .compare {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: #dedede;
   text-align: center;
-  border: 3px solid black;
   margin: 100px 50px;
-  padding: 10px; }
+  padding: 10px;
+  opacity: 0.6; }
 
 .compare {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  width: 80%; }
+  width: 90%; }
   .compare::after {
     clear: both;
     content: "";
@@ -217,12 +219,12 @@ picture {
   display: block;
   margin-right: 2.35765%;
   width: 40.29137%;
-  text-align: left; }
+  text-align: left;
+  opacity: 1; }
   .blue:last-child {
     margin-right: 0; }
 
 .purple {
-  background-color: #dedede;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -247,17 +249,20 @@ ul {
   box-sizing: border-box; }
 
 header {
-  padding-bottom: 0px; }
+  text-align: center;
+  padding-bottom: 0px;
+  color: white; }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  font-size: 6em; }
+  font-size: 6em;
+  background: rgba(0, 0, 0, 0.3); }
 
 body {
   font-family: 'Raleway', sans-serif;
   background: #dedede url("../img/background.jpg") no-repeat;
-  background-size: contain; }
+  background-size: cover; }
 
 .container {
   max-width: 68em;
@@ -273,25 +278,22 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 48.82117%;
+  padding: 1em; }
   .left:last-child {
-    margin-right: 0; }
-
-.middle {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-  .middle:last-child {
     margin-right: 0; }
 
 .right {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
-  margin-right: 0; }
+  width: 48.82117%;
+  margin-right: 0;
+  padding: 1em; }
   .right:last-child {
     margin-right: 0; }
+
+.toptext, .bottomtext {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

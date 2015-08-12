@@ -1,20 +1,20 @@
 .compare{
     @include outer-container;
     @extend .borders;
-    width: 80%;
+    width: 90%;
+    
     h3{
     text-align: center;
-
     }
 }
 
 .blue{
     @include span-columns(5);
     text-align:left;
+    opacity: 1;
 }
 
 .purple{
-    background-color: $cardColor;
     @include span-columns(3);
 }
 

@@ -1,0 +1,60 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+@import 'variables';
+@import "chart";
+
+
+*{
+box-sizing: border-box;
+}
+
+header{
+    @extend .borders;
+    padding-bottom: 0px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 6em;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: $cardColor url('../img/background.jpg') no-repeat;
+    background-size: contain;
+}
+
+.container{
+    @include outer-container;
+    max-width: 100%;
+}
+
+.left{
+    @include span-columns(4);
+  
+}
+
+.middle{
+    @include span-columns(4);
+}
+
+.right{
+    @include span-columns(4);
+    @include omega;
+}
+
+
+.toptext{
+   @extend .borders;
+}
+
+.bottomtext{
+    @extend .borders;
+}
+
+
+
+
+

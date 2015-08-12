@@ -1,0 +1,31 @@
+.compare{
+    @include outer-container;
+    @extend .borders;
+    width: 80%;
+    h3{
+    text-align: center;
+
+    }
+}
+
+.blue{
+    @include span-columns(5);
+    text-align:left;
+}
+
+.purple{
+    background-color: $cardColor;
+    @include span-columns(3);
+}
+
+
+.red{
+    @include span-columns(4);
+    @include omega;
+    text-align: right;
+}
+
+
+ul{
+    list-style: none;
+}

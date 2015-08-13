@@ -11,11 +11,10 @@ body{
     background:
         url(../img/main.svg),
         white;
-    background-size: contain;
-    height:1310px;
+    background-size: cover;
+    min-height:1300px;
     width: 100%;
-    color: black;
-    border: 10px solid black;
+    position: relative;
 }
 
 .banner{
@@ -35,40 +34,40 @@ body{
 
 .bottom{
     position: absolute;
-    bottom:0px;
+    bottom: 0;
     width:100%;
-    border: 5px solid pink;
  }
-
-
 
 .skull{
     background:white;
-    width:32%;
+    width:20%;
     border: 5px solid black;
-
-    bottom:0;
+    position:absolute;
+    bottom: 0;
     left:0;
- 
 }
 
 article{
     background: white; 
-    width:32%;   
-    height: 20%;
-    border:5px solid black;
-    bottom: 0;
-  
+    width:55%;   
+    height: 25em;
+    border:2px solid black;
+    line-height:1.5em;
+    text-align:center;
+    padding: 2px;
+    position: absolute;
+    bottom:0;
+    left:22%;
+
 }
 
 .crow{
     background:white;
-    float: left;
-    width: 32%;
+    position: absolute;
+    right: 0;
+    width: 20%;
     border: 5px solid black;
-    poistion: absolute; 
     bottom:0;
-    right:0;
  
 }
 

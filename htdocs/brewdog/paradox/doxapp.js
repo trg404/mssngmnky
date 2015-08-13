@@ -1,2 +1,0 @@
-Doxapp = Ember.Application.create()
-

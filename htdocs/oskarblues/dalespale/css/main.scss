@@ -1,0 +1,61 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+@import 'variables';
+@import "chart";
+
+
+*{
+box-sizing: border-box;
+}
+
+header{
+    text-align:center;
+    padding-bottom: 0px;
+    color: white;
+    background: rgba(0,0,0,0.3);
+    margin-top:-1em;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 6em;
+   
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: black url('../img/background.jpg') repeat-x;
+    background-size: cover; 
+    background-position: fixed;
+    position: absolute;
+}
+
+.container{
+    @include outer-container;
+    max-width: 100%;
+}
+
+.left{
+    @include span-columns(6);
+    padding: 1em;
+}
+
+
+
+.right{
+    @include span-columns(6);
+    @include omega;
+    padding: 1em;
+}
+
+.toptext , .bottomtext{
+   color:white;
+   padding: 1em;
+}
+
+
+
+

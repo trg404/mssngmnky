@@ -3,31 +3,30 @@ box-sizing: border-box;
 }
 
 body{
-    background-color: lightslategrey;
+background: slategrey url('../img/mountains.jpg') fixed no-repeat;
+}
 
-}
-.headerpic{
-    height:500px;
-    border: 5px solid black;
-    background-image: url('../img/mountains.jpg');
-}
 
 header{
     border: 1px solid black;
     margin: 0 50px;
     text-align: center;
+    background: grey;
+    box-shadow: 4px 10px darkslategrey;
 }
 
 article{
- 
     display:block;
     width: 62.5%;
 }
 
 .compare{
-    float: right;
-    width:37%;
+    margin: auto;
+    width:90%;
     border:1px solid black;
+    box-shadow: -5px -10px slategrey
+    position: relative;
+    ;
 }
 .red{
     border:1px solid black;
@@ -42,9 +41,16 @@ article{
 }
 .purple{
     background-color: white;
-    right: 12%;
+    right: 30%;
+    width: 40%;
     position: absolute;
+    border: 1px solid black;
+    text-align: center;
+
 }
 ul{
 list-style: none;}
-
+p{
+    background: white;
+    box-shadow: 2px 5px grey;
+}

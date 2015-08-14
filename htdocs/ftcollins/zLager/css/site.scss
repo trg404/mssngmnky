@@ -2,8 +2,10 @@
 @import "neat/neat";
 @import "base/base";
 @import "normalize";
+@import "variables";
 
 
 body{
-background:blue;	
+background:$white;	
+color: $black;
 }

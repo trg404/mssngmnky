@@ -302,7 +302,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -431,7 +432,6 @@ th {
     margin: 0 auto 5%;
     width: 100%;
     height: 100%; } }
-
 #explanation {
   width: 50%;
   margin: 5em auto;
@@ -445,17 +445,21 @@ th {
     border-bottom: 1px solid black;
     display: block;
     margin: 5% 0; }
+
   #explanation {
     width: 30.5em;
     border: none;
     margin: 1em auto;
     line-height: 1.5em;
     font-size: 1.25em; } }
-
 /* Beer catagories */
 @media screen and (min-width: 700px) {
-  #dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
+  .beer {
     width: 33%;
-    float: left; } }
+    float: left;
+    transition: .2s; }
+
+  .beer:hover {
+    bordeR: 5px solid white; } }
 
 /*# sourceMappingURL=site.css.map */

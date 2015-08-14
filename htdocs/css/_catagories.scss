@@ -8,8 +8,15 @@
 
 @media screen and (min-width: 700px){
   
-#dryhopped, #stoneIPA, #wittekerke, #radler, #avbc, #guinness {
+.beer{
   @include beer-box;
+  transition: .2s;
+
+}
+
+
+.beer:hover{
+	bordeR: 5px solid white;
 }
 
 }

@@ -2,7 +2,8 @@
       $('.carousel').slick({
        dots: true, 
     	arrows: false,
-    	// autoplay: true
+    	autoplay: true,
+    	autoplaySpeed: 5000
       });
 
       $('.single-item').slick();

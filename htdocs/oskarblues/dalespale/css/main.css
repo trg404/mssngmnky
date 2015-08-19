@@ -257,11 +257,11 @@ header {
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  font-size: 6em; }
+  font-size: 10vw; }
 
 body {
   font-family: 'Raleway', sans-serif;
-  background: black url("../img/background.jpg") repeat-x;
+  background: black url("../img/background.jpg") no-repeat;
   background-size: cover;
   background-position: fixed;
   position: absolute; }

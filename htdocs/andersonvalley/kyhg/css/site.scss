@@ -19,10 +19,12 @@ body{
 
 header{
 text-align:justify;
+width: 90%;
+
 }
 
 h1{
-font-size: 13.96vw;
+font-size: 12.599vw;
 @include marginTB(0);
 letter-spacing: .1em;
 margin-left: -.07em;
@@ -32,17 +34,15 @@ margin-bottom:-.1em;
 }
 
 h2{
-font-size: 5.75vw;
+font-size: 5.25vw;
 @include marginTB(0);
 
 
 }
 
 h3{
-font-size: 3.37vw;
+font-size: 4.53vw;
 @include marginTB(0);
-letter-spacing: .25em;
-
 }
 
 .pic{
@@ -52,9 +52,10 @@ letter-spacing: .25em;
 }
 
 p{
+
 font-size: 2vw;
-width: 89%;
-line-height: 1em;
+width: 90%;
+line-height: 1.09em;
 }
 
 

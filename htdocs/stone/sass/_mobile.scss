@@ -1,4 +1,11 @@
-@media (max-width: 700px){
+@media (max-width:1000px) and (min-width: 700px){
+	a{
+	@include shift(3);
+	}
+}
+
+
+@media (max-width: 710px){
 	
 	body{
 		background: $green url('../img/bottleM.jpg') no-repeat;
@@ -18,12 +25,20 @@
 	}
 
 	#leftside{
-		@include span-columns(10);
+		@include span-columns(12);
 		@include shift(1);
 		margin-top:0;
 		p{
 			@include shift (0);
-			line-height: 1.5em;
+			padding-right: 10px;
+		}
+		.button{
+		background: lighten($green, 10%);
+		@include shift(2);
+		@include span-columns(6);
+		@include omega;
+		margin-bottom: 50px;
+
 		}
 	}
 

@@ -7,7 +7,7 @@ body {
   background-color: #00904c; }
 
 #leftside {
-  margin-top: 20em;
+  margin-top: 10em;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -33,9 +33,35 @@ p {
   margin-left: 25.58941%;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
+  color: white;
+  line-height: 1.5em; }
+
+a {
+  text-decoration: none;
   color: white; }
 
-@media (max-width: 700px) {
+.button {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 42.64902%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  background: #002a16;
+  padding: 10px;
+  line-height: 2em;
+  font-size: 1.05em; }
+  .button:last-child {
+    margin-right: 0; }
+
+@media (max-width: 1000px) and (min-width: 700px) {
+  a {
+    margin-left: 25.58941%; } }
+@media (max-width: 710px) {
   body {
     background: #00904c url("../img/bottleM.jpg") no-repeat;
     background-size: cover; }
@@ -58,13 +84,24 @@ p {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 82.94039%;
+    width: 100%;
     margin-left: 8.5298%;
     margin-top: 0; }
     #leftside:last-child {
       margin-right: 0; }
     #leftside p {
       margin-left: 0%;
-      line-height: 1.5em; } }
+      padding-right: 10px; }
+    #leftside .button {
+      background: #00c367;
+      margin-left: 17.05961%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-right: 0;
+      margin-bottom: 50px; }
+      #leftside .button:last-child {
+        margin-right: 0; } }
 
 /*# sourceMappingURL=site.css.map */

@@ -1,0 +1,63 @@
+@import "normalize";
+
+@mixin marginTB($margin){
+	margin-top:$margin;
+	margin-bottom:$margin;
+}
+
+body{
+	background:#fafafa;	
+	color: #5D5D5D;
+}
+
+.container{
+	margin: auto;
+	width: 100%;
+
+	padding:20px;
+}
+
+header{
+text-align:justify;
+}
+
+h1{
+font-size: 13.96vw;
+@include marginTB(0);
+letter-spacing: .1em;
+margin-left: -.07em;
+margin-top:-.1em;
+margin-bottom:-.1em;
+
+}
+
+h2{
+font-size: 5.75vw;
+@include marginTB(0);
+
+
+}
+
+h3{
+font-size: 3.37vw;
+@include marginTB(0);
+letter-spacing: .25em;
+
+}
+
+.pic{
+	width: 25%;
+	float:left;
+	margin: 10px;
+}
+
+p{
+font-size: 2vw;
+width: 89%;
+line-height: 1em;
+}
+
+
+//notes
+
+//breaks at 1200px

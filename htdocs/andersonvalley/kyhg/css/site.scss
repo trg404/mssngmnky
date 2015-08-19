@@ -7,6 +7,7 @@
 
 body{
 	background:#fafafa;	
+	color: #5D5D5D;
 }
 
 .container{
@@ -18,8 +19,6 @@ body{
 
 header{
 text-align:justify;
-
-
 }
 
 h1{
@@ -27,6 +26,8 @@ font-size: 13.96vw;
 @include marginTB(0);
 letter-spacing: .1em;
 margin-left: -.07em;
+margin-top:-.1em;
+margin-bottom:-.1em;
 
 }
 
